@@ -1,0 +1,13 @@
+jeu,k,methode,reference,difference_F1,IC95_bas,IC95_haut,ecart_etabli,nb_notes
+eval,5,approche2a_phrases_tfidf,baseline_tfidf_mots,0.048,-0.032,0.12,non,20
+eval,5,approche2b_textrank,baseline_tfidf_mots,-0.007,-0.104,0.089,non,20
+eval,5,approche2c_lemmes_spacy_tfidf,baseline_tfidf_mots,0.067,0.003,0.128,oui,20
+eval,10,approche2a_phrases_tfidf,baseline_tfidf_mots,-0.041,-0.088,0.008,non,20
+eval,10,approche2b_textrank,baseline_tfidf_mots,-0.058,-0.138,0.019,non,20
+eval,10,approche2c_lemmes_spacy_tfidf,baseline_tfidf_mots,0.153,0.089,0.216,oui,20
+test,5,approche2a_phrases_tfidf,baseline_tfidf_mots,-0.161,-0.275,-0.047,oui,10
+test,5,approche2b_textrank,baseline_tfidf_mots,-0.029,-0.239,0.162,non,10
+test,5,approche2c_lemmes_spacy_tfidf,baseline_tfidf_mots,-0.027,-0.163,0.127,non,10
+test,10,approche2a_phrases_tfidf,baseline_tfidf_mots,-0.081,-0.164,0.003,non,10
+test,10,approche2b_textrank,baseline_tfidf_mots,0.133,0.021,0.236,oui,10
+test,10,approche2c_lemmes_spacy_tfidf,baseline_tfidf_mots,-0.028,-0.098,0.064,non,10

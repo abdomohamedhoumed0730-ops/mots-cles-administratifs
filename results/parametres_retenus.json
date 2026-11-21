@@ -1,0 +1,10 @@
+{
+  "graine": 42,
+  "k_values": [
+    5,
+    10
+  ],
+  "approche2a_longueur_max": 2,
+  "approche2b_fenetre": 3,
+  "approche2c_longueur_max": 2
+}

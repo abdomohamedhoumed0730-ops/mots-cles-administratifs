@@ -1,0 +1,98 @@
+python3 src/valider_donnees.py
+Validation : PASS (40 notes, 0 avertissement(s))
+python3 src/evaluate.py
+Corpus : 40 notes (10 dev, 20 eval)
+Hyperparamètres retenus (sur dev) : 2a longueur_max=2, 2b fenetre=3, 2c longueur_max=2
+
+Résumé par jeu (moyenne par note) :
+split                       methode  k correspondance  precision  rappel    F1
+ eval      approche2a_phrases_tfidf  5         souple      0.560   0.425 0.480
+ eval      approche2a_phrases_tfidf  5        stricte      0.140   0.117 0.127
+ eval           approche2b_textrank  5         souple      0.490   0.383 0.425
+ eval           approche2b_textrank  5        stricte      0.110   0.092 0.100
+ eval approche2c_lemmes_spacy_tfidf  5         souple      0.600   0.433 0.499
+ eval approche2c_lemmes_spacy_tfidf  5        stricte      0.100   0.083 0.091
+ eval           baseline_tfidf_mots  5         souple      0.500   0.392 0.432
+ eval           baseline_tfidf_mots  5        stricte      0.000   0.000 0.000
+ eval      approche2a_phrases_tfidf 10         souple      0.465   0.633 0.531
+ eval      approche2a_phrases_tfidf 10        stricte      0.105   0.175 0.131
+ eval           approche2b_textrank 10         souple      0.450   0.608 0.514
+ eval           approche2b_textrank 10        stricte      0.110   0.183 0.138
+ eval approche2c_lemmes_spacy_tfidf 10         souple      0.660   0.817 0.726
+ eval approche2c_lemmes_spacy_tfidf 10        stricte      0.115   0.192 0.144
+ eval           baseline_tfidf_mots 10         souple      0.510   0.667 0.572
+ eval           baseline_tfidf_mots 10        stricte      0.015   0.025 0.019
+ test      approche2a_phrases_tfidf  5         souple      0.400   0.283 0.323
+ test      approche2a_phrases_tfidf  5        stricte      0.020   0.017 0.018
+ test           approche2b_textrank  5         souple      0.500   0.417 0.455
+ test           approche2b_textrank  5        stricte      0.160   0.133 0.145
+ test approche2c_lemmes_spacy_tfidf  5         souple      0.500   0.433 0.456
+ test approche2c_lemmes_spacy_tfidf  5        stricte      0.000   0.000 0.000
+ test           baseline_tfidf_mots  5         souple      0.540   0.450 0.483
+ test           baseline_tfidf_mots  5        stricte      0.020   0.017 0.018
+ test      approche2a_phrases_tfidf 10         souple      0.439   0.417 0.407
+ test      approche2a_phrases_tfidf 10        stricte      0.027   0.033 0.030
+ test           approche2b_textrank 10         souple      0.530   0.767 0.621
+ test           approche2b_textrank 10        stricte      0.160   0.267 0.200
+ test approche2c_lemmes_spacy_tfidf 10         souple      0.445   0.500 0.460
+ test approche2c_lemmes_spacy_tfidf 10        stricte      0.000   0.000 0.000
+ test           baseline_tfidf_mots 10         souple      0.425   0.600 0.488
+ test           baseline_tfidf_mots 10        stricte      0.010   0.017 0.012
+
+Fichiers écrits dans results/.
+python3 src/valider_donnees.py
+Validation : PASS (40 notes, 0 avertissement(s))
+python3 src/evaluate.py
+Corpus : 40 notes (10 dev, 20 eval)
+Hyperparamètres retenus (sur dev) : 2a longueur_max=2, 2b fenetre=3, 2c longueur_max=2
+
+Résumé par jeu (moyenne par note) :
+split                       methode  k correspondance  precision  rappel    F1
+ eval      approche2a_phrases_tfidf  5         souple      0.560   0.425 0.480
+ eval      approche2a_phrases_tfidf  5        stricte      0.140   0.117 0.127
+ eval           approche2b_textrank  5         souple      0.490   0.383 0.425
+ eval           approche2b_textrank  5        stricte      0.110   0.092 0.100
+ eval approche2c_lemmes_spacy_tfidf  5         souple      0.600   0.433 0.499
+ eval approche2c_lemmes_spacy_tfidf  5        stricte      0.100   0.083 0.091
+ eval           baseline_tfidf_mots  5         souple      0.500   0.392 0.432
+ eval           baseline_tfidf_mots  5        stricte      0.000   0.000 0.000
+ eval      approche2a_phrases_tfidf 10         souple      0.465   0.633 0.531
+ eval      approche2a_phrases_tfidf 10        stricte      0.105   0.175 0.131
+ eval           approche2b_textrank 10         souple      0.450   0.608 0.514
+ eval           approche2b_textrank 10        stricte      0.110   0.183 0.138
+ eval approche2c_lemmes_spacy_tfidf 10         souple      0.660   0.817 0.726
+ eval approche2c_lemmes_spacy_tfidf 10        stricte      0.115   0.192 0.144
+ eval           baseline_tfidf_mots 10         souple      0.510   0.667 0.572
+ eval           baseline_tfidf_mots 10        stricte      0.015   0.025 0.019
+ test      approche2a_phrases_tfidf  5         souple      0.400   0.283 0.323
+ test      approche2a_phrases_tfidf  5        stricte      0.020   0.017 0.018
+ test           approche2b_textrank  5         souple      0.500   0.417 0.455
+ test           approche2b_textrank  5        stricte      0.160   0.133 0.145
+ test approche2c_lemmes_spacy_tfidf  5         souple      0.500   0.433 0.456
+ test approche2c_lemmes_spacy_tfidf  5        stricte      0.000   0.000 0.000
+ test           baseline_tfidf_mots  5         souple      0.540   0.450 0.483
+ test           baseline_tfidf_mots  5        stricte      0.020   0.017 0.018
+ test      approche2a_phrases_tfidf 10         souple      0.439   0.417 0.407
+ test      approche2a_phrases_tfidf 10        stricte      0.027   0.033 0.030
+ test           approche2b_textrank 10         souple      0.530   0.767 0.621
+ test           approche2b_textrank 10        stricte      0.160   0.267 0.200
+ test approche2c_lemmes_spacy_tfidf 10         souple      0.445   0.500 0.460
+ test approche2c_lemmes_spacy_tfidf 10        stricte      0.000   0.000 0.000
+ test           baseline_tfidf_mots 10         souple      0.425   0.600 0.488
+ test           baseline_tfidf_mots 10        stricte      0.010   0.017 0.012
+
+Fichiers écrits dans results/.
+python3 src/analyse_statistique.py
+ jeu  k                       methode           reference  difference_F1  IC95_bas  IC95_haut ecart_etabli  nb_notes
+eval  5      approche2a_phrases_tfidf baseline_tfidf_mots          0.048    -0.032      0.120          non        20
+eval  5           approche2b_textrank baseline_tfidf_mots         -0.007    -0.104      0.089          non        20
+eval  5 approche2c_lemmes_spacy_tfidf baseline_tfidf_mots          0.067     0.003      0.128          oui        20
+eval 10      approche2a_phrases_tfidf baseline_tfidf_mots         -0.041    -0.088      0.008          non        20
+eval 10           approche2b_textrank baseline_tfidf_mots         -0.058    -0.138      0.019          non        20
+eval 10 approche2c_lemmes_spacy_tfidf baseline_tfidf_mots          0.153     0.089      0.216          oui        20
+test  5      approche2a_phrases_tfidf baseline_tfidf_mots         -0.161    -0.275     -0.047          oui        10
+test  5           approche2b_textrank baseline_tfidf_mots         -0.029    -0.239      0.162          non        10
+test  5 approche2c_lemmes_spacy_tfidf baseline_tfidf_mots         -0.027    -0.163      0.127          non        10
+test 10      approche2a_phrases_tfidf baseline_tfidf_mots         -0.081    -0.164      0.003          non        10
+test 10           approche2b_textrank baseline_tfidf_mots          0.133     0.021      0.236          oui        10
+test 10 approche2c_lemmes_spacy_tfidf baseline_tfidf_mots         -0.028    -0.098      0.064          non        10

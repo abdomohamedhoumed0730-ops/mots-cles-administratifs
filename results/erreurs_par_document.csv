@@ -1,0 +1,474 @@
+id,methode,type,mot_cle,reference_manquee
+N11,baseline_tfidf_mots,parasite (top-5 hors référence),heures,
+N11,baseline_tfidf_mots,parasite (top-5 hors référence),chef,
+N11,baseline_tfidf_mots,parasite (top-5 hors référence),durant,
+N11,baseline_tfidf_mots,parasite (top-5 hors référence),ouvriront,
+N11,baseline_tfidf_mots,référence absente du top-5,,horaires de travail
+N11,baseline_tfidf_mots,référence absente du top-5,,mois de ramadan
+N11,baseline_tfidf_mots,référence absente du top-5,,ouverture des bureaux
+N11,baseline_tfidf_mots,référence absente du top-5,,ponctualité
+N11,baseline_tfidf_mots,référence absente du top-5,,signalement des absences
+N12,baseline_tfidf_mots,parasite (top-5 hors référence),membres,
+N12,baseline_tfidf_mots,parasite (top-5 hors référence),dérouleront,
+N12,baseline_tfidf_mots,référence absente du top-5,,techniciens de laboratoire
+N12,baseline_tfidf_mots,référence absente du top-5,,grilles de notation
+N12,baseline_tfidf_mots,référence absente du top-5,,enveloppes scellées
+N13,baseline_tfidf_mots,parasite (top-5 hors référence),décès,
+N13,baseline_tfidf_mots,parasite (top-5 hors référence),engage,
+N13,baseline_tfidf_mots,référence absente du top-5,,pièces justificatives
+N13,baseline_tfidf_mots,référence absente du top-5,,service du personnel
+N13,baseline_tfidf_mots,référence absente du top-5,,dossiers urgents
+N13,baseline_tfidf_mots,référence absente du top-5,,rattrapage
+N14,baseline_tfidf_mots,parasite (top-5 hors référence),0457,
+N14,baseline_tfidf_mots,parasite (top-5 hors référence),312,
+N14,baseline_tfidf_mots,parasite (top-5 hors référence),500,
+N14,baseline_tfidf_mots,parasite (top-5 hors référence),administratif,
+N14,baseline_tfidf_mots,référence absente du top-5,,avis de paiement
+N14,baseline_tfidf_mots,référence absente du top-5,,facture fournisseur
+N14,baseline_tfidf_mots,référence absente du top-5,,maintenance des climatiseurs
+N14,baseline_tfidf_mots,référence absente du top-5,,retenue à la source
+N15,baseline_tfidf_mots,parasite (top-5 hors référence),approuvé,
+N15,baseline_tfidf_mots,parasite (top-5 hors référence),autorisé,
+N15,baseline_tfidf_mots,parasite (top-5 hors référence),fin,
+N15,baseline_tfidf_mots,référence absente du top-5,,procès-verbal
+N15,baseline_tfidf_mots,référence absente du top-5,,budget révisé
+N15,baseline_tfidf_mots,référence absente du top-5,,recrutement d'agents d'entretien
+N15,baseline_tfidf_mots,référence absente du top-5,,règlement intérieur
+N16,baseline_tfidf_mots,parasite (top-5 hors référence),180,
+N16,baseline_tfidf_mots,référence absente du top-5,,coût d'inscription
+N16,baseline_tfidf_mots,référence absente du top-5,,avis favorable
+N17,baseline_tfidf_mots,parasite (top-5 hors référence),accompagner,
+N17,baseline_tfidf_mots,parasite (top-5 hors référence),administratifs,
+N17,baseline_tfidf_mots,référence absente du top-5,,dossiers clôturés
+N17,baseline_tfidf_mots,référence absente du top-5,,étiquetage des boîtes
+N17,baseline_tfidf_mots,référence absente du top-5,,service d'origine
+N18,baseline_tfidf_mots,parasite (top-5 hors référence),heures,
+N18,baseline_tfidf_mots,parasite (top-5 hors référence),assuré,
+N18,baseline_tfidf_mots,parasite (top-5 hors référence),feront,
+N18,baseline_tfidf_mots,parasite (top-5 hors référence),locaux,
+N18,baseline_tfidf_mots,référence absente du top-5,,planning d'entretien
+N18,baseline_tfidf_mots,référence absente du top-5,,nettoyage des bureaux
+N18,baseline_tfidf_mots,référence absente du top-5,,passage supplémentaire
+N18,baseline_tfidf_mots,référence absente du top-5,,responsable du site
+N18,baseline_tfidf_mots,référence absente du top-5,,accueil
+N19,baseline_tfidf_mots,parasite (top-5 hors référence),soit,
+N19,baseline_tfidf_mots,parasite (top-5 hors référence),concernant,
+N19,baseline_tfidf_mots,référence absente du top-5,,réclamation
+N19,baseline_tfidf_mots,référence absente du top-5,,justification écrite
+N19,baseline_tfidf_mots,référence absente du top-5,,dépôt de dossier
+N20,baseline_tfidf_mots,parasite (top-5 hors référence),projet,
+N20,baseline_tfidf_mots,parasite (top-5 hors référence),annexe,
+N20,baseline_tfidf_mots,parasite (top-5 hors référence),cadrage,
+N20,baseline_tfidf_mots,référence absente du top-5,,dépôt en ligne
+N20,baseline_tfidf_mots,référence absente du top-5,,phase pilote
+N20,baseline_tfidf_mots,référence absente du top-5,,budget prévisionnel
+N20,baseline_tfidf_mots,référence absente du top-5,,indicateurs de réussite
+N20,baseline_tfidf_mots,référence absente du top-5,,premier semestre 2027
+N21,baseline_tfidf_mots,parasite (top-5 hors référence),089,
+N21,baseline_tfidf_mots,parasite (top-5 hors référence),aucune,
+N21,baseline_tfidf_mots,référence absente du top-5,,modification de rémunération
+N21,baseline_tfidf_mots,référence absente du top-5,,dossiers en cours
+N21,baseline_tfidf_mots,référence absente du top-5,,nouveau responsable
+N22,baseline_tfidf_mots,parasite (top-5 hors référence),compte,
+N22,baseline_tfidf_mots,parasite (top-5 hors référence),demandent,
+N22,baseline_tfidf_mots,référence absente du top-5,,région de Tadjourah
+N22,baseline_tfidf_mots,référence absente du top-5,,tableaux numériques
+N22,baseline_tfidf_mots,référence absente du top-5,,recommandations
+N23,baseline_tfidf_mots,parasite (top-5 hors référence),heures,
+N23,baseline_tfidf_mots,parasite (top-5 hors référence),accueillera,
+N23,baseline_tfidf_mots,référence absente du top-5,,accueil du public
+N23,baseline_tfidf_mots,référence absente du top-5,,règlement des frais
+N23,baseline_tfidf_mots,référence absente du top-5,,note de service
+N24,baseline_tfidf_mots,parasite (top-5 hors référence),400,
+N24,baseline_tfidf_mots,parasite (top-5 hors référence),datent,
+N24,baseline_tfidf_mots,parasite (top-5 hors référence),détaillée,
+N24,baseline_tfidf_mots,référence absente du top-5,,service de la scolarité
+N24,baseline_tfidf_mots,référence absente du top-5,,logiciel de gestion des notes
+N24,baseline_tfidf_mots,référence absente du top-5,,fiche technique
+N24,baseline_tfidf_mots,référence absente du top-5,,ordinateurs
+N25,baseline_tfidf_mots,parasite (top-5 hors référence),année,
+N25,baseline_tfidf_mots,parasite (top-5 hors référence),invité,
+N25,baseline_tfidf_mots,référence absente du top-5,,direction des ressources humaines
+N25,baseline_tfidf_mots,référence absente du top-5,,convocation
+N26,baseline_tfidf_mots,parasite (top-5 hors référence),accompagnées,
+N26,baseline_tfidf_mots,parasite (top-5 hors référence),affichées,
+N26,baseline_tfidf_mots,parasite (top-5 hors référence),aura,
+N26,baseline_tfidf_mots,référence absente du top-5,,point de rassemblement
+N26,baseline_tfidf_mots,référence absente du top-5,,mobilité réduite
+N26,baseline_tfidf_mots,référence absente du top-5,,équipe de sécurité
+N26,baseline_tfidf_mots,référence absente du top-5,,incendie
+N27,baseline_tfidf_mots,référence absente du top-5,,service statistiques
+N27,baseline_tfidf_mots,référence absente du top-5,,tuteur pédagogique
+N27,baseline_tfidf_mots,référence absente du top-5,,troisième année de licence
+N28,baseline_tfidf_mots,parasite (top-5 hors référence),courrier,
+N28,baseline_tfidf_mots,parasite (top-5 hors référence),2026,
+N28,baseline_tfidf_mots,parasite (top-5 hors référence),114,
+N28,baseline_tfidf_mots,référence absente du top-5,,demande de mutation
+N28,baseline_tfidf_mots,référence absente du top-5,,référence du dossier
+N28,baseline_tfidf_mots,référence absente du top-5,,délai de décision
+N28,baseline_tfidf_mots,référence absente du top-5,,enregistrement
+N29,baseline_tfidf_mots,parasite (top-5 hors référence),occasion,
+N29,baseline_tfidf_mots,parasite (top-5 hors référence),suivant,
+N29,baseline_tfidf_mots,référence absente du top-5,,formation interne
+N29,baseline_tfidf_mots,référence absente du top-5,,gestion électronique des documents
+N29,baseline_tfidf_mots,référence absente du top-5,,demandes urgentes
+N29,baseline_tfidf_mots,référence absente du top-5,,note de service
+N30,baseline_tfidf_mots,parasite (top-5 hors référence),actuel,
+N30,baseline_tfidf_mots,parasite (top-5 hors référence),affecté,
+N30,baseline_tfidf_mots,parasite (top-5 hors référence),anticipée,
+N30,baseline_tfidf_mots,parasite (top-5 hors référence),disponible,
+N30,baseline_tfidf_mots,référence absente du top-5,,demande de mutation
+N30,baseline_tfidf_mots,référence absente du top-5,,formation en statistiques
+N30,baseline_tfidf_mots,référence absente du top-5,,prise de poste
+N30,baseline_tfidf_mots,référence absente du top-5,,avis favorable
+N30,baseline_tfidf_mots,référence absente du top-5,,supérieur hiérarchique
+N11,approche2a_phrases_tfidf,parasite (top-5 hors référence),bureaux ouvriront,
+N11,approche2a_phrases_tfidf,parasite (top-5 hors référence),chef,
+N11,approche2a_phrases_tfidf,référence absente du top-5,,horaires de travail
+N11,approche2a_phrases_tfidf,référence absente du top-5,,ouverture des bureaux
+N11,approche2a_phrases_tfidf,référence absente du top-5,,signalement des absences
+N12,approche2a_phrases_tfidf,parasite (top-5 hors référence),membres,
+N12,approche2a_phrases_tfidf,parasite (top-5 hors référence),dérouleront,
+N12,approche2a_phrases_tfidf,référence absente du top-5,,techniciens de laboratoire
+N12,approche2a_phrases_tfidf,référence absente du top-5,,épreuves écrites
+N12,approche2a_phrases_tfidf,référence absente du top-5,,grilles de notation
+N13,approche2a_phrases_tfidf,parasite (top-5 hors référence),deux jours,
+N13,approche2a_phrases_tfidf,parasite (top-5 hors référence),décès,
+N13,approche2a_phrases_tfidf,référence absente du top-5,,raisons familiales
+N13,approche2a_phrases_tfidf,référence absente du top-5,,pièces justificatives
+N13,approche2a_phrases_tfidf,référence absente du top-5,,service du personnel
+N13,approche2a_phrases_tfidf,référence absente du top-5,,rattrapage
+N14,approche2a_phrases_tfidf,parasite (top-5 hors référence),2026 0457,
+N14,approche2a_phrases_tfidf,parasite (top-5 hors référence),312 500,
+N14,approche2a_phrases_tfidf,parasite (top-5 hors référence),bâtiment administratif,
+N14,approche2a_phrases_tfidf,parasite (top-5 hors référence),changé,
+N14,approche2a_phrases_tfidf,référence absente du top-5,,avis de paiement
+N14,approche2a_phrases_tfidf,référence absente du top-5,,facture fournisseur
+N14,approche2a_phrases_tfidf,référence absente du top-5,,virement bancaire
+N14,approche2a_phrases_tfidf,référence absente du top-5,,retenue à la source
+N14,approche2a_phrases_tfidf,référence absente du top-5,,relevé d'identité bancaire
+N15,approche2a_phrases_tfidf,parasite (top-5 hors référence),approuvé,
+N15,approche2a_phrases_tfidf,parasite (top-5 hors référence),autorisé,
+N15,approche2a_phrases_tfidf,référence absente du top-5,,procès-verbal
+N15,approche2a_phrases_tfidf,référence absente du top-5,,recrutement d'agents d'entretien
+N15,approche2a_phrases_tfidf,référence absente du top-5,,règlement intérieur
+N16,approche2a_phrases_tfidf,parasite (top-5 hors référence),180 000,
+N16,approche2a_phrases_tfidf,référence absente du top-5,,supérieur hiérarchique
+N16,approche2a_phrases_tfidf,référence absente du top-5,,avis favorable
+N17,approche2a_phrases_tfidf,parasite (top-5 hors référence),accompagner,
+N17,approche2a_phrases_tfidf,référence absente du top-5,,dossiers clôturés
+N17,approche2a_phrases_tfidf,référence absente du top-5,,service d'origine
+N18,approche2a_phrases_tfidf,parasite (top-5 hors référence),assuré,
+N18,approche2a_phrases_tfidf,parasite (top-5 hors référence),locaux,
+N18,approche2a_phrases_tfidf,parasite (top-5 hors référence),midi,
+N18,approche2a_phrases_tfidf,référence absente du top-5,,planning d'entretien
+N18,approche2a_phrases_tfidf,référence absente du top-5,,nettoyage des bureaux
+N18,approche2a_phrases_tfidf,référence absente du top-5,,passage supplémentaire
+N18,approche2a_phrases_tfidf,référence absente du top-5,,responsable du site
+N19,approche2a_phrases_tfidf,parasite (top-5 hors référence),certificat soit,
+N19,approche2a_phrases_tfidf,parasite (top-5 hors référence),dossier déposé,
+N19,approche2a_phrases_tfidf,parasite (top-5 hors référence),délivré,
+N19,approche2a_phrases_tfidf,référence absente du top-5,,réclamation
+N19,approche2a_phrases_tfidf,référence absente du top-5,,justification écrite
+N19,approche2a_phrases_tfidf,référence absente du top-5,,délai de réponse
+N19,approche2a_phrases_tfidf,référence absente du top-5,,dépôt de dossier
+N20,approche2a_phrases_tfidf,parasite (top-5 hors référence),annexe,
+N20,approche2a_phrases_tfidf,parasite (top-5 hors référence),cadrage,
+N20,approche2a_phrases_tfidf,référence absente du top-5,,dépôt en ligne
+N20,approche2a_phrases_tfidf,référence absente du top-5,,phase pilote
+N20,approche2a_phrases_tfidf,référence absente du top-5,,indicateurs de réussite
+N20,approche2a_phrases_tfidf,référence absente du top-5,,premier semestre 2027
+N21,approche2a_phrases_tfidf,parasite (top-5 hors référence),089 portant,
+N21,approche2a_phrases_tfidf,parasite (top-5 hors référence),1er janvier,
+N21,approche2a_phrases_tfidf,référence absente du top-5,,modification de rémunération
+N21,approche2a_phrases_tfidf,référence absente du top-5,,dossiers en cours
+N21,approche2a_phrases_tfidf,référence absente du top-5,,nouveau responsable
+N22,approche2a_phrases_tfidf,parasite (top-5 hors référence),compte rendu,
+N22,approche2a_phrases_tfidf,parasite (top-5 hors référence),enseignants demandent,
+N22,approche2a_phrases_tfidf,parasite (top-5 hors référence),février,
+N22,approche2a_phrases_tfidf,parasite (top-5 hors référence),intermittente,
+N22,approche2a_phrases_tfidf,référence absente du top-5,,visite de terrain
+N22,approche2a_phrases_tfidf,référence absente du top-5,,région de Tadjourah
+N22,approche2a_phrases_tfidf,référence absente du top-5,,tableaux numériques
+N22,approche2a_phrases_tfidf,référence absente du top-5,,formation des enseignants
+N22,approche2a_phrases_tfidf,référence absente du top-5,,recommandations
+N23,approche2a_phrases_tfidf,parasite (top-5 hors référence),fixés,
+N23,approche2a_phrases_tfidf,parasite (top-5 hors référence),guichet numéro,
+N23,approche2a_phrases_tfidf,référence absente du top-5,,accueil du public
+N23,approche2a_phrases_tfidf,référence absente du top-5,,règlement des frais
+N23,approche2a_phrases_tfidf,référence absente du top-5,,note de service
+N24,approche2a_phrases_tfidf,parasite (top-5 hors référence),400 000,
+N24,approche2a_phrases_tfidf,parasite (top-5 hors référence),détaillée,
+N24,approche2a_phrases_tfidf,référence absente du top-5,,service de la scolarité
+N24,approche2a_phrases_tfidf,référence absente du top-5,,logiciel de gestion des notes
+N24,approche2a_phrases_tfidf,référence absente du top-5,,ordinateurs
+N25,approche2a_phrases_tfidf,parasite (top-5 hors référence),année prochaine,
+N25,approche2a_phrases_tfidf,référence absente du top-5,,convocation
+N25,approche2a_phrases_tfidf,référence absente du top-5,,mardi 1er décembre
+N26,approche2a_phrases_tfidf,parasite (top-5 hors référence),accompagnées,
+N26,approche2a_phrases_tfidf,parasite (top-5 hors référence),consignes affichées,
+N26,approche2a_phrases_tfidf,parasite (top-5 hors référence),couloirs,
+N26,approche2a_phrases_tfidf,parasite (top-5 hors référence),lieu,
+N26,approche2a_phrases_tfidf,référence absente du top-5,,consignes de sécurité
+N26,approche2a_phrases_tfidf,référence absente du top-5,,point de rassemblement
+N26,approche2a_phrases_tfidf,référence absente du top-5,,mobilité réduite
+N26,approche2a_phrases_tfidf,référence absente du top-5,,équipe de sécurité
+N26,approche2a_phrases_tfidf,référence absente du top-5,,incendie
+N27,approche2a_phrases_tfidf,référence absente du top-5,,service statistiques
+N27,approche2a_phrases_tfidf,référence absente du top-5,,tuteur pédagogique
+N27,approche2a_phrases_tfidf,référence absente du top-5,,troisième année de licence
+N28,approche2a_phrases_tfidf,parasite (top-5 hors référence),courrier,
+N28,approche2a_phrases_tfidf,parasite (top-5 hors référence),2026 114,
+N28,approche2a_phrases_tfidf,parasite (top-5 hors référence),enregistré,
+N28,approche2a_phrases_tfidf,référence absente du top-5,,demande de mutation
+N28,approche2a_phrases_tfidf,référence absente du top-5,,référence du dossier
+N28,approche2a_phrases_tfidf,référence absente du top-5,,délai de décision
+N28,approche2a_phrases_tfidf,référence absente du top-5,,enregistrement
+N29,approche2a_phrases_tfidf,référence absente du top-5,,journée de formation
+N29,approche2a_phrases_tfidf,référence absente du top-5,,note de service
+N30,approche2a_phrases_tfidf,parasite (top-5 hors référence),affecté,
+N30,approche2a_phrases_tfidf,parasite (top-5 hors référence),poste anticipée,
+N30,approche2a_phrases_tfidf,parasite (top-5 hors référence),raison,
+N30,approche2a_phrases_tfidf,parasite (top-5 hors référence),souhaite,
+N30,approche2a_phrases_tfidf,référence absente du top-5,,demande de mutation
+N30,approche2a_phrases_tfidf,référence absente du top-5,,formation en statistiques
+N30,approche2a_phrases_tfidf,référence absente du top-5,,prise de poste
+N30,approche2a_phrases_tfidf,référence absente du top-5,,avis favorable
+N30,approche2a_phrases_tfidf,référence absente du top-5,,supérieur hiérarchique
+N11,approche2b_textrank,parasite (top-5 hors référence),huit heures,
+N11,approche2b_textrank,parasite (top-5 hors référence),treize heures,
+N11,approche2b_textrank,parasite (top-5 hors référence),neuf heures,
+N11,approche2b_textrank,parasite (top-5 hors référence),service relative,
+N11,approche2b_textrank,parasite (top-5 hors référence),travail durant,
+N11,approche2b_textrank,référence absente du top-5,,horaires de travail
+N11,approche2b_textrank,référence absente du top-5,,mois de ramadan
+N11,approche2b_textrank,référence absente du top-5,,ouverture des bureaux
+N11,approche2b_textrank,référence absente du top-5,,pause déjeuner
+N11,approche2b_textrank,référence absente du top-5,,ponctualité
+N11,approche2b_textrank,référence absente du top-5,,signalement des absences
+N12,approche2b_textrank,parasite (top-5 hors référence),membres,
+N12,approche2b_textrank,parasite (top-5 hors référence),recrutement,
+N12,approche2b_textrank,référence absente du top-5,,jury de concours
+N12,approche2b_textrank,référence absente du top-5,,techniciens de laboratoire
+N12,approche2b_textrank,référence absente du top-5,,déclaration d'impartialité
+N13,approche2b_textrank,parasite (top-5 hors référence),novembre suite,
+N13,approche2b_textrank,référence absente du top-5,,raisons familiales
+N13,approche2b_textrank,référence absente du top-5,,service du personnel
+N13,approche2b_textrank,référence absente du top-5,,rattrapage
+N14,approche2b_textrank,parasite (top-5 hors référence),312 500 francs,
+N14,approche2b_textrank,parasite (top-5 hors référence),0457 relative,
+N14,approche2b_textrank,parasite (top-5 hors référence),bâtiment administratif,
+N14,approche2b_textrank,référence absente du top-5,,avis de paiement
+N14,approche2b_textrank,référence absente du top-5,,facture fournisseur
+N14,approche2b_textrank,référence absente du top-5,,maintenance des climatiseurs
+N14,approche2b_textrank,référence absente du top-5,,retenue à la source
+N15,approche2b_textrank,parasite (top-5 hors référence),deux agents,
+N15,approche2b_textrank,parasite (top-5 hors référence),nécessité,
+N15,approche2b_textrank,référence absente du top-5,,procès-verbal
+N15,approche2b_textrank,référence absente du top-5,,recrutement d'agents d'entretien
+N16,approche2b_textrank,parasite (top-5 hors référence),180 000 francs,
+N16,approche2b_textrank,parasite (top-5 hors référence),données relationnelles organisée,
+N16,approche2b_textrank,parasite (top-5 hors référence),dix jours,
+N16,approche2b_textrank,référence absente du top-5,,gestion de bases de données
+N16,approche2b_textrank,référence absente du top-5,,coût d'inscription
+N16,approche2b_textrank,référence absente du top-5,,supérieur hiérarchique
+N17,approche2b_textrank,parasite (top-5 hors référence),cinq ans,
+N17,approche2b_textrank,parasite (top-5 hors référence),documents administratifs,
+N17,approche2b_textrank,parasite (top-5 hors référence),circulaire relative,
+N17,approche2b_textrank,référence absente du top-5,,archivage des documents
+N17,approche2b_textrank,référence absente du top-5,,bordereau de versement
+N17,approche2b_textrank,référence absente du top-5,,étiquetage des boîtes
+N17,approche2b_textrank,référence absente du top-5,,service d'origine
+N18,approche2b_textrank,parasite (top-5 hors référence),six heures,
+N18,approche2b_textrank,parasite (top-5 hors référence),registre prévu,
+N18,approche2b_textrank,parasite (top-5 hors référence),huit heures,
+N18,approche2b_textrank,parasite (top-5 hors référence),signaler,
+N18,approche2b_textrank,référence absente du top-5,,planning d'entretien
+N18,approche2b_textrank,référence absente du top-5,,nettoyage des bureaux
+N18,approche2b_textrank,référence absente du top-5,,responsable du site
+N18,approche2b_textrank,référence absente du top-5,,registre d'anomalies
+N18,approche2b_textrank,référence absente du top-5,,accueil
+N19,approche2b_textrank,parasite (top-5 hors référence),certificat soit délivré,
+N19,approche2b_textrank,parasite (top-5 hors référence),meilleurs délais,
+N19,approche2b_textrank,parasite (top-5 hors référence),dossier déposé,
+N19,approche2b_textrank,référence absente du top-5,,retard de délivrance
+N19,approche2b_textrank,référence absente du top-5,,certificat de résidence
+N19,approche2b_textrank,référence absente du top-5,,délai de réponse
+N19,approche2b_textrank,référence absente du top-5,,dépôt de dossier
+N20,approche2b_textrank,parasite (top-5 hors référence),pilote concernera deux facultés,
+N20,approche2b_textrank,parasite (top-5 hors référence),projet vise,
+N20,approche2b_textrank,référence absente du top-5,,dématérialisation des bourses
+N20,approche2b_textrank,référence absente du top-5,,dépôt en ligne
+N20,approche2b_textrank,référence absente du top-5,,phase pilote
+N20,approche2b_textrank,référence absente du top-5,,budget prévisionnel
+N21,approche2b_textrank,parasite (top-5 hors référence),089 portant affectation,
+N21,approche2b_textrank,parasite (top-5 hors référence),entraîne aucune modification,
+N21,approche2b_textrank,parasite (top-5 hors référence),monsieur youssouf hassan,
+N21,approche2b_textrank,parasite (top-5 hors référence),1er janvier,
+N21,approche2b_textrank,référence absente du top-5,,décision d'affectation
+N21,approche2b_textrank,référence absente du top-5,,service de la comptabilité
+N21,approche2b_textrank,référence absente du top-5,,modification de rémunération
+N21,approche2b_textrank,référence absente du top-5,,dossiers en cours
+N21,approche2b_textrank,référence absente du top-5,,changement d'affectation
+N22,approche2b_textrank,parasite (top-5 hors référence),trois écoles,
+N22,approche2b_textrank,parasite (top-5 hors référence),enseignants demandent,
+N22,approche2b_textrank,référence absente du top-5,,région de Tadjourah
+N22,approche2b_textrank,référence absente du top-5,,tableaux numériques
+N22,approche2b_textrank,référence absente du top-5,,recommandations
+N23,approche2b_textrank,parasite (top-5 hors référence),guichet numéro trois accueillera,
+N23,approche2b_textrank,parasite (top-5 hors référence),quinze heures,
+N23,approche2b_textrank,parasite (top-5 hors référence),neuf heures,
+N23,approche2b_textrank,parasite (top-5 hors référence),service relative,
+N23,approche2b_textrank,référence absente du top-5,,guichet de paiement
+N23,approche2b_textrank,référence absente du top-5,,droits d'inscription
+N23,approche2b_textrank,référence absente du top-5,,accueil du public
+N23,approche2b_textrank,référence absente du top-5,,règlement des frais
+N23,approche2b_textrank,référence absente du top-5,,note de service
+N24,approche2b_textrank,parasite (top-5 hors référence),400 000 francs djiboutiens,
+N24,approche2b_textrank,parasite (top-5 hors référence),demande,
+N24,approche2b_textrank,parasite (top-5 hors référence),huit ans,
+N24,approche2b_textrank,référence absente du top-5,,service de la scolarité
+N24,approche2b_textrank,référence absente du top-5,,logiciel de gestion des notes
+N24,approche2b_textrank,référence absente du top-5,,coût estimé
+N24,approche2b_textrank,référence absente du top-5,,ordinateurs
+N25,approche2b_textrank,parasite (top-5 hors référence),année prochaine,
+N25,approche2b_textrank,référence absente du top-5,,convocation
+N26,approche2b_textrank,parasite (top-5 hors référence),évacuation aura lieu,
+N26,approche2b_textrank,parasite (top-5 hors référence),consignes affichées,
+N26,approche2b_textrank,parasite (top-5 hors référence),rassemblement situé,
+N26,approche2b_textrank,parasite (top-5 hors référence),membres,
+N26,approche2b_textrank,référence absente du top-5,,exercice d'évacuation
+N26,approche2b_textrank,référence absente du top-5,,consignes de sécurité
+N26,approche2b_textrank,référence absente du top-5,,point de rassemblement
+N26,approche2b_textrank,référence absente du top-5,,équipe de sécurité
+N26,approche2b_textrank,référence absente du top-5,,incendie
+N27,approche2b_textrank,parasite (top-5 hors référence),stage porte,
+N27,approche2b_textrank,référence absente du top-5,,analyse des données d'enquête
+N27,approche2b_textrank,référence absente du top-5,,lettre d'acceptation
+N27,approche2b_textrank,référence absente du top-5,,troisième année de licence
+N28,approche2b_textrank,parasite (top-5 hors référence),courrier,
+N28,approche2b_textrank,parasite (top-5 hors référence),référence mut 2026,
+N28,approche2b_textrank,parasite (top-5 hors référence),novembre 2026 relatif,
+N28,approche2b_textrank,parasite (top-5 hors référence),deux mois,
+N28,approche2b_textrank,référence absente du top-5,,accusé de réception
+N28,approche2b_textrank,référence absente du top-5,,demande de mutation
+N28,approche2b_textrank,référence absente du top-5,,référence du dossier
+N28,approche2b_textrank,référence absente du top-5,,délai de décision
+N28,approche2b_textrank,référence absente du top-5,,enregistrement
+N29,approche2b_textrank,parasite (top-5 hors référence),lundi suivant,
+N29,approche2b_textrank,référence absente du top-5,,journée de formation
+N29,approche2b_textrank,référence absente du top-5,,note de service
+N30,approche2b_textrank,parasite (top-5 hors référence),janvier 2027,
+N30,approche2b_textrank,parasite (top-5 hors référence),poste anticipée,
+N30,approche2b_textrank,référence absente du top-5,,demande de mutation
+N30,approche2b_textrank,référence absente du top-5,,formation en statistiques
+N30,approche2b_textrank,référence absente du top-5,,prise de poste
+N30,approche2b_textrank,référence absente du top-5,,supérieur hiérarchique
+N11,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),heure,
+N11,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),chef,
+N11,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,horaires de travail
+N11,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,ouverture des bureaux
+N11,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,signalement des absences
+N12,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),membre,
+N12,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,techniciens de laboratoire
+N12,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,épreuves écrites
+N13,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),décès,
+N13,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),famille,
+N13,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,raisons familiales
+N13,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,pièces justificatives
+N13,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,service du personnel
+N13,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,rattrapage
+N14,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),bâtiment administratif,
+N14,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),montant net,
+N14,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,avis de paiement
+N14,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,facture fournisseur
+N14,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,virement bancaire
+N14,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,retenue à la source
+N15,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),fin,
+N15,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),nécessité,
+N15,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,procès-verbal
+N15,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,budget révisé
+N15,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,recrutement d'agents d'entretien
+N15,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,règlement intérieur
+N16,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),donnée relationnel,
+N16,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,coût d'inscription
+N16,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,supérieur hiérarchique
+N16,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,avis favorable
+N17,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),document administratif,
+N17,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,dossiers clôturés
+N17,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,service d'origine
+N18,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),heure,
+N18,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),local,
+N18,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),midi,
+N18,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),moyen,
+N18,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,planning d'entretien
+N18,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,nettoyage des bureaux
+N18,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,passage supplémentaire
+N18,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,responsable du site
+N18,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,accueil
+N19,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),fournie,
+N19,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),meilleur délai,
+N19,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,réclamation
+N19,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,délai de réponse
+N19,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,dépôt de dossier
+N20,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),projet,
+N20,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),annexe,
+N20,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),cadrage,
+N20,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,dépôt en ligne
+N20,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,phase pilote
+N20,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,indicateurs de réussite
+N20,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,premier semestre 2027
+N21,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),hassan,
+N21,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,modification de rémunération
+N21,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,nouveau responsable
+N22,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),compte,
+N22,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),février,
+N22,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),intermittent,
+N22,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,visite de terrain
+N22,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,région de Tadjourah
+N22,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,tableaux numériques
+N22,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,recommandations
+N23,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),fixé,
+N23,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),guichet numéro,
+N23,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),interruption,
+N23,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,droits d'inscription
+N23,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,accueil du public
+N23,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,règlement des frais
+N23,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,note de service
+N24,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),fich technique,
+N24,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),présent demande,
+N24,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,service de la scolarité
+N24,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,logiciel de gestion des notes
+N24,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,coût estimé
+N24,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,fiche technique
+N25,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),année prochain,
+N25,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,convocation
+N25,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,mardi 1er décembre
+N26,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),couloir,
+N26,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),lieu,
+N26,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,point de rassemblement
+N26,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,équipe de sécurité
+N26,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,incendie
+N27,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,service statistiques
+N27,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,tuteur pédagogique
+N27,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,troisième année de licence
+N28,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),courrier,
+N28,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),administratif,
+N28,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),prochain commission,
+N28,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),relatif,
+N28,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,accusé de réception
+N28,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,demande de mutation
+N28,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,référence du dossier
+N28,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,commission administrative
+N28,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,enregistrement
+N29,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),demande urgent,
+N29,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,demandes urgentes
+N29,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,journée de formation
+N29,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,note de service
+N30,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),disponible,
+N30,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),raison,
+N30,approche2c_lemmes_spacy_tfidf,parasite (top-5 hors référence),supérieur actuel,
+N30,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,demande de mutation
+N30,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,prise de poste
+N30,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,avis favorable
+N30,approche2c_lemmes_spacy_tfidf,référence absente du top-5,,supérieur hiérarchique

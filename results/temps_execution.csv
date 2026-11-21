@@ -1,0 +1,5 @@
+methode,secondes_par_note
+baseline_tfidf_mots,0.002193689325000037
+approche2a_phrases_tfidf,0.010050070350000339
+approche2b_textrank,0.003468716825000229
+approche2c_lemmes_spacy_tfidf,0.024321799724999947

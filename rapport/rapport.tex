@@ -1,0 +1,204 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{parskip}
+
+\renewcommand{\refname}{Références}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\begin{center}
+\textbf{Extraction de mots-clés dans des documents administratifs}\\[2pt]
+Projet de fin de module TALN, Master 2 Intelligence Artificielle et Modélisation de Données\\
+Université de Djibouti \quad -- \quad Binôme 6\\
+Auteurs : Abdo Mohamed Houmed et Magdi Ali \quad -- \quad Novembre 2026
+\end{center}
+
+\section{Introduction}
+
+Une administration produit et reçoit chaque jour un grand nombre de notes : demandes de congé, notes de service, convocations, avis de paiement. Pour retrouver un document, il faut le classer, et cela suppose de le lire. Ce projet teste une idée simple : un programme peut-il proposer, pour une note, entre 5 et 10 mots-clés qui en résument le sujet, avec une méthode mesurable et reproductible ?
+
+Nous comparons quatre méthodes. Nous avons séparé les données en trois jeux, nous avons utilisé le premier pour régler les paramètres, le deuxième pour mesurer, et le troisième, gelé avant toute mesure finale, pour conclure. Les écarts sont présentés avec leur intervalle de confiance. La conclusion est volontairement prudente : sur nos données, aucune méthode ne bat nettement la baseline de manière robuste.
+
+\section{Données et protocole}
+
+\subsection{Corpus}
+
+Aucun document administratif réel n'était disponible. Nous avons donc rédigé un corpus de 40 notes fictives, en imitant les genres courants : note de service, convocation, avis de paiement, demande, procès-verbal, circulaire. Chaque note compte entre 36 et 67 mots et est associée à six mots-clés de référence. Les références ont été rédigées par un seul auteur, sans double annotation. Une note de congé a été reformulée pour ne pas faire apparaître de motif de santé. Le corpus ne contient aucune donnée personnelle réelle ; un contrôle automatique vérifie l'absence d'adresses électroniques, de numéros de téléphone et de numéros IBAN.
+
+Le corpus est réparti en trois jeux : le développement (notes N01 à N10, 10 notes), l'évaluation (N11 à N30, 20 notes) et le test (N31 à N40, 10 notes). Le jeu de test a été rédigé après la conception de la méthode 2c, comme nous l'expliquons plus loin.
+
+\subsection{Prétraitement}
+
+Le texte est mis en minuscules, les apostrophes sont séparées, et les mots vides sont retirés à l'aide d'une liste écrite à la main, qui comprend aussi quelques termes administratifs très fréquents (« objet », « merci »). Pour la comparaison, les accents sont retirés et la marque du pluriel en fin de mot est supprimée. Cette normalisation s'applique aux mots-clés proposés comme aux références.
+
+\subsection{Règles de non-fuite}
+
+L'IDF de la méthode TF-IDF est appris uniquement sur les notes qui ne sont pas dans le jeu de test. Les hyperparamètres sont choisis sur le développement, avec le score F1 souple à $k=5$ ; en cas d'égalité, la plus petite valeur est retenue. Le jeu de test n'est utilisé qu'une seule fois, pour la mesure finale.
+
+\section{Méthodes}
+
+\begin{description}[leftmargin=0pt,labelindent=0pt,itemsep=4pt]
+\item[Baseline TF-IDF.] Chaque mot de la note reçoit un score TF-IDF : la fréquence du mot dans la note, pondérée par sa rareté dans le corpus. Les mots les mieux notés sont retenus. Le TF utilise la forme sous-linéaire $1 + \ln(\mathrm{tf})$, et l'idf est lissé, comme dans scikit-learn. Cette méthode sert de référence, selon l'approche classique de Salton et Buckley (1988).
+\item[Approche 2a.] Les candidats sont des suites de mots non vides, de longueur maximale 2 dans le réglage retenu. Ils sont scorés par TF-IDF. Le but est de produire des expressions comme « demande de congé » plutôt que des mots isolés.
+\item[Approche 2b (TextRank).] Un graphe de cooccurrence relie les mots qui apparaissent dans une même fenêtre de 3 mots. L'algorithme PageRank (amortissement 0,85) classe les mots. Aucun corpus d'apprentissage n'est nécessaire, selon Mihalcea et Tarau (2004).
+\item[Approche 2c.] Le texte est lemmatisé avec le modèle \texttt{fr\_core\_news\_sm} de spaCy. Seuls les noms, noms propres et adjectifs sont gardés, sans mots vides et sans nombres. Les lemmes sont ensuite scorés par TF-IDF. Cette méthode a été ajoutée après la première évaluation, à partir des erreurs observées sur le jeu d'évaluation. Nous en tenons compte dans l'interprétation.
+\end{description}
+
+\section{Mesures}
+
+Nous comparons les mots-clés proposés aux six références. Deux correspondances sont calculées. La correspondance stricte exige que les deux expressions contiennent les mêmes mots après normalisation. La correspondance souple est vraie si l'ensemble des mots de l'une est inclus dans l'autre : ainsi « congé » correspond à « demande de congé ». La mesure principale est le F1 souple, moyenne harmonique de la précision et du rappel, calculée par note puis moyennée. Les résultats en correspondance stricte sont fournis dans les fichiers de sortie. Ils sont presque nuls pour toutes les méthodes, car une expression de trois mots est rarement reproduite à l'identique.
+
+L'incertitude est estimée par bootstrap apparié : nous rééchantillonnons les notes avec remise 2 000 fois (graine 42) et nous calculons l'écart de F1 avec la baseline à chaque tirage. Un écart est dit établi lorsque l'intervalle à 95 \% ne contient pas zéro.
+
+La stabilité est mesurée de deux façons. Mélanger l'ordre des phrases ne change rien pour les méthodes fondées sur des sacs de mots : le coefficient de Jaccard vaut 1 par construction, c'est un contrôle et non une preuve. Le vrai test est la suppression d'une phrase tirée au hasard, qui mesure le chevauchement des cinq premiers mots-clés avant et après.
+
+\section{Résultats}
+
+\subsection{Jeu de test gelé}
+
+{\small\begin{longtable}{lcccc}
+\toprule
+Méthode & F1 $k=5$ & Écart vs baseline $k=5$ & F1 $k=10$ & Écart vs baseline $k=10$ \\
+\midrule
+\endfirsthead
+\toprule
+Méthode & F1 $k=5$ & Écart vs baseline $k=5$ & F1 $k=10$ & Écart vs baseline $k=10$ \\
+\midrule
+\endhead
+Baseline TF-IDF & 0,483 & -- & 0,488 & -- \\
+Approche 2a & 0,323 & $-0,161$ [$-0,275$ ; $-0,047$] établi & 0,407 & $-0,081$ [$-0,164$ ; $+0,003$] \\
+Approche 2b (TextRank) & 0,455 & $-0,029$ [$-0,239$ ; $+0,162$] & 0,621 & $+0,133$ [$+0,021$ ; $+0,236$] établi \\
+Approche 2c & 0,456 & $-0,027$ [$-0,163$ ; $+0,127$] & 0,460 & $-0,028$ [$-0,098$ ; $+0,064$] \\
+\bottomrule
+\end{longtable}}
+
+Sur le test, à $k=5$, aucune méthode ne dépasse la baseline. L'approche 2a est nettement moins bonne. À $k=10$, TextRank (2b) est nettement meilleure que la baseline, avec un écart de $+0,133$ et un intervalle entre $+0,021$ et $+0,236$. La méthode 2c n'apporte pas de gain sur le test, à aucun des deux seuils.
+
+\subsection{Jeu d'évaluation}
+
+{\small\begin{longtable}{lcccc}
+\toprule
+Méthode & F1 $k=5$ & Écart vs baseline $k=5$ & F1 $k=10$ & Écart vs baseline $k=10$ \\
+\midrule
+\endfirsthead
+\toprule
+Méthode & F1 $k=5$ & Écart vs baseline $k=5$ & F1 $k=10$ & Écart vs baseline $k=10$ \\
+\midrule
+\endhead
+Baseline TF-IDF & 0,432 & -- & 0,572 & -- \\
+Approche 2a & 0,480 & $+0,048$ [$-0,032$ ; $+0,120$] & 0,531 & $-0,041$ [$-0,088$ ; $+0,008$] \\
+Approche 2b (TextRank) & 0,425 & $-0,007$ [$-0,104$ ; $+0,089$] & 0,514 & $-0,058$ [$-0,138$ ; $+0,019$] \\
+Approche 2c & 0,499 & $+0,067$ [$+0,003$ ; $+0,128$] établi & 0,726 & $+0,153$ [$+0,089$ ; $+0,216$] établi \\
+\bottomrule
+\end{longtable}}
+
+Sur le jeu d'évaluation, la méthode 2c paraît nettement meilleure. Ce résultat n'est pas une mesure indépendante : 2c a été conçue en regardant les erreurs de ce même jeu. Le test gelé ne le confirme pas. Les deux écarts établis sur le test (2a à $k=5$, 2b à $k=10$) ne se retrouvent pas dans le sens inverse sur l'évaluation, où 2a est légèrement meilleure à $k=5$ et 2b légèrement moins bonne à $k=10$, sans que ces écarts soient établis.
+
+\subsection{Stabilité et coût}
+
+Lorsqu'on supprime une phrase au hasard, le coefficient de Jaccard moyen entre les cinq premiers mots-clés avant et après est de $0,64$ pour la baseline, $0,67$ pour 2a, $0,60$ pour 2b et $0,64$ pour 2c. Aucune méthode n'est stable face à une perte d'information. Le temps moyen par note, sur la machine de travail, est de 2,3 ms pour la baseline, 3,1 ms pour 2b, 9,5 ms pour 2a et 20,3 ms pour 2c. Tous ces coûts sont négligeables pour des notes administratives.
+
+\subsection{Lecture d'ensemble}
+
+Avec dix notes de test et douze comparaisons, quelques écarts établis peuvent être dus au hasard. Un écart de F1 de l'ordre de 0,05 n'est pas une preuve. La conclusion défendable est la suivante : sur ce corpus, aucune méthode ne domine la baseline de façon robuste, et la méthode la plus prometteuse sur l'évaluation a été conçue à partir de ce jeu.
+
+\section{Analyse des erreurs}
+
+Nous avons relevé les erreurs réelles, c'est-à-dire les mots-clés proposés qui ne correspondent à aucune référence, et les références absentes des cinq premiers mots-clés. Les cas suivants sont tirés des fichiers de sortie.
+
+\begin{enumerate}[itemsep=3pt]
+\item \textbf{Mots génériques (baseline, note N11).} « heures » est retenu dans les horaires de travail, alors que les références parlent de ramadan, d'ouverture des bureaux et de ponctualité.
+\item \textbf{Mots génériques (baseline et 2a, note N20).} « annexe » est retenu dans une note de cadrage informatique.
+\item \textbf{Verbe participe (baseline, 2a, note N15).} « approuvé » apparaît dans un procès-verbal, sans décrire le sujet du document.
+\item \textbf{Nombre (baseline, note N24).} « 400 » est extrait du montant « 400 000 francs djiboutiens ». Pour 2a, l'expression « 400 000 » est proposée à la place.
+\item \textbf{Expression numérique (2b, note N11).} « huit heures », « treize heures » et « neuf heures » occupent plusieurs places du top 5.
+\item \textbf{Référence absente (baseline et 2b, note N14).} La référence « maintenance des climatiseurs » n'apparaît pas dans les cinq premiers mots-clés de ces deux méthodes, alors que « climatiseurs » figure dans le texte.
+\item \textbf{Nom de personne (2b, note N21).} « monsieur youssouf hassan » est proposé. Avec 2c, « hassan » apparaît au cinquième rang. Pour un archivage réel, il faudrait décider d'exclure les noms de personnes.
+\item \textbf{Erreur de lemmatisation (2c, note N31, test).} « ressource humain » est produit à partir de « ressources humaines ». La lemmatisation de spaCy, avec le modèle léger, n'a pas traité ce pluriel. Le même type d'erreur produit « fich » pour « fiche » dans la démonstration.
+\item \textbf{Mot polysémique (2c, notes N31 et N33, test).} « cours » est retenu sans rapport avec une formation, et « compte » sans rapport avec un compte rendu.
+\item \textbf{Mot générique (2c, note N34, test).} « ordre » et « poste » sont proposés pour une note sur le stationnement. Ces mots sont trop larges pour distinguer la note.
+\item \textbf{Forme tronquée (règle de normalisation).} La règle qui retire le « x » final transforme « prix » en « pri ». Le test de cette limite est marqué comme attendu en échec.
+\end{enumerate}
+
+Ces erreurs ont des causes différentes. Les nombres et les mots génériques viennent du fait que la baseline compte des mots, sans comprendre leur rôle dans la note. Les erreurs de lemmatisation viennent du modèle, qui est le plus léger de spaCy. Les noms de personnes ne sont pas filtrés. Les références absentes viennent aussi de l'annotation : un mot-clé raisonnable qui ne figure pas dans la liste est compté comme une erreur.
+
+
+\section{Gouvernance des données}
+
+Le projet suit la fiche de données recommandée en cours : origine, licence, domaine, volume, distribution des classes et des jeux, méthode d'annotation et mode de séparation. Le tableau ci-dessous résume ces points.
+
+\begin{center}
+{\small
+\begin{tabular}{p{3.6cm}p{10.5cm}}
+\toprule
+Dimension & Choix retenu et justification \\
+\midrule
+Origine & corpus rédigé pour le projet, imitant des genres administratifs réels ; aucune source externe \\
+Licence & usage pédagogique dans le cadre du module ; réutilisable sans restriction \\
+Domaine & administration universitaire (congés, achats, convocations, avis de paiement) \\
+Volume & 40 notes de 36 à 67 mots ; six références par note, soit 240 mots-clés de référence \\
+Séparation & développement 10 notes, évaluation 20 notes, test 10 notes ; IDF appris hors test \\
+Annotation & un seul auteur, sans double annotation : limite assumée \\
+Vie privée & noms fictifs ; contrôle automatique des courriels, téléphones et IBAN \\
+Intégrité & empreinte SHA-256 enregistrée et vérifiée à chaque validation \\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+
+Une règle de qualité est appliquée avant toute mesure : aucune note du test n'influence le vocabulaire appris, ni le choix des paramètres. Une anomalie de données ferait échouer la validation, et les tests l'empêcheraient d'être publiée sans correction.
+
+\section{Prototype et démonstration}
+
+Le prototype suit l'architecture vue en séances 11 et 12 : une interface, une fonction d'inférence, un modèle sauvegardé et une sortie tabulaire. La baseline TF-IDF est sauvegardée avec joblib, puis rechargée sans réentraînement ; un test vérifie que la prédiction est identique avant et après sauvegarde. L'interface Gradio présente, pour une note collée, un tableau où chaque colonne correspond à une méthode et chaque ligne à un rang. Le score affiché est un score TF-IDF : il sert à classer, il ne mesure pas une probabilité.
+
+Le tableau ci-dessous reproduit la sortie réelle pour la note d'exemple de la démonstration. Il montre à la fois ce qui fonctionne et ce qui pose problème : « 400 000 » et « 400 » proviennent du montant, « devis » et « détaillée » sont des mots fréquents mais peu informatifs, et « fich technique » ou « présent demande » sont des erreurs de lemmatisation.
+
+\begin{center}
+{\small
+\begin{tabular}{rllll}
+\toprule
+Rang & Baseline TF-IDF & 2a Expressions & 2b TextRank & 2c Lemmes spaCy \\
+\midrule
+1 & 400 & 400 000 & 400 000 & devis \\
+2 & devis & coût estimé & demande & fich technique \\
+3 & détaillée & détaillée & deux devis & matériel informatique \\
+4 & estimé & fiche technique & détaillée & ordinateur \\
+5 & fiche & joints & sollicite & présent demande \\
+\bottomrule
+\end{tabular}
+}
+\end{center}
+
+La démonstration est conçue pour tenir dans la durée demandée (2 à 4 minutes) et se lance par une seule commande. Elle permet au jury de tester une note de son choix, ce qui est plus parlant qu'un tableau de scores.
+
+\section{Limites}
+
+Le corpus est synthétique et compte quarante notes. Les intervalles de confiance sont donc larges. Les références ont été écrites par un seul auteur. Le jeu de test ne compte que dix notes et ne permet pas de conclure avec certitude. La règle de correspondance souple est généreuse : « service » est compté comme correct pour « service du personnel ». La lemmatisation utilisée repose sur le modèle français de petite taille de spaCy, ce qui explique une partie des erreurs. Enfin, aucune donnée réelle n'a été testée, et les notes réelles contiennent souvent des fautes, des tableaux et des documents scannés, que notre corpus ne reproduit pas.
+
+Nous n'avons pas encore réalisé d'évaluation humaine. Un formulaire aveugle a été préparé pour 20 notes et quatre méthodes, soit 396 lignes à noter. Cette étape est nécessaire pour valider les mesures automatiques et n'est pas faite à ce jour. Les résultats de ce rapport doivent être lus en conséquence.
+
+\section{Reproductibilité}
+
+Le projet est organisé en modules : configuration centrale, prétraitement, méthodes, évaluation, statistiques et validation des données. Une suite de 61 tests vérifie les fonctions de base, les méthodes, la qualité des données et les résultats publiés : 60 tests réussissent et un test documenté échoue volontairement. L'empreinte SHA-256 du corpus est enregistrée. La commande \texttt{make tout} reconstruit l'ensemble des résultats à partir des données. Une seule graine (42) est utilisée partout.
+
+\section{Conclusion}
+
+Sur un corpus synthétique de quarante notes administratives, quatre méthodes de mots-clés ont été comparées selon un protocole sans fuite de données. Sur le jeu de test gelé, aucune ne dépasse nettement la baseline à $k=5$, et TextRank la dépasse nettement à $k=10$. La méthode lemmatisée 2c, qui semblait la meilleure sur le jeu d'évaluation, ne confirme pas ce gain sur le test. Le travail suivant serait de réaliser l'évaluation humaine, de tester les méthodes sur de vraies notes avec l'accord de l'administration, et d'exclure les noms de personnes avant tout usage réel.
+
+\section*{Références}
+
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+\item Salton, G. et Buckley, C. (1988). Term-weighting approaches in automatic text retrieval. \emph{Information Processing \& Management}, 24(5).
+\item Mihalcea, R. et Tarau, P. (2004). TextRank: Bringing order into texts. \emph{Proceedings of EMNLP}.
+\item Page, L., Brin, S., Motwani, R. et Winograd, T. (1999). \emph{The PageRank citation ranking: Bringing order to the web}. Rapport technique, Stanford InfoLab.
+\end{itemize}
+
+\end{document}

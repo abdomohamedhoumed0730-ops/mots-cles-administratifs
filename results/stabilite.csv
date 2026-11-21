@@ -1,0 +1,5 @@
+methode,jaccard_ordre_phrases_moyen,jaccard_suppression_phrase_moyen,jaccard_suppression_phrase_min
+baseline_tfidf_mots,1.0,0.642,0.25
+approche2a_phrases_tfidf,1.0,0.671,0.25
+approche2b_textrank,1.0,0.596,0.25
+approche2c_lemmes_spacy_tfidf,1.0,0.64,0.111

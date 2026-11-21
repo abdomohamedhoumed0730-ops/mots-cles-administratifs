@@ -1,0 +1,4 @@
+# Dépendances de développement : tests et démonstration Gradio
+-r requirements.txt
+pytest>=7.0
+gradio>=4.0

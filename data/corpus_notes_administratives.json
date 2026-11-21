@@ -1,0 +1,562 @@
+[
+ {
+  "id": "N01",
+  "split": "dev",
+  "titre": "Demande de congé annuel",
+  "texte": "Objet : demande de congé annuel. Je soussigné, agent du service des finances, sollicite un congé annuel de dix jours ouvrables du 5 au 16 janvier 2027. Mon dossier de passation est à jour et la continuité des paiements fournisseurs sera assurée par un collègue désigné pendant mon absence. Merci de valider cette demande avant le 10 décembre afin de permettre la planification des congés du service.",
+  "mots_cles_reference": [
+   "demande de congé annuel",
+   "service des finances",
+   "continuité des paiements",
+   "dossier de passation",
+   "planification des congés",
+   "dix jours ouvrables"
+  ]
+ },
+ {
+  "id": "N02",
+  "split": "dev",
+  "titre": "Note de service – nomination",
+  "texte": "Note de service n° 024/DG/2026. Il est porté à la connaissance de l'ensemble du personnel que Mme Kadra est nommée cheffe du bureau des archives à compter du 1er décembre 2026. Elle relève directement de la direction administrative et financière. Les demandes de consultation des archives continueront d'être adressées par courrier interne.",
+  "mots_cles_reference": [
+   "note de service",
+   "bureau des archives",
+   "direction administrative et financière",
+   "nomination",
+   "consultation des archives",
+   "courrier interne"
+  ]
+ },
+ {
+  "id": "N03",
+  "split": "dev",
+  "titre": "Convocation au comité de pilotage",
+  "texte": "Convocation à la réunion du comité de pilotage du projet de numérisation. La réunion se tiendra le jeudi 3 décembre 2026 à 10 heures, en salle de conférence du second étage. L'ordre du jour porte sur l'état d'avancement de la numérisation des registres, le budget restant et le calendrier de livraison du prestataire. Merci de transmettre les points à ajouter au secrétariat avant le 30 novembre.",
+  "mots_cles_reference": [
+   "comité de pilotage",
+   "projet de numérisation",
+   "ordre du jour",
+   "état d'avancement",
+   "budget restant",
+   "calendrier de livraison"
+  ]
+ },
+ {
+  "id": "N04",
+  "split": "dev",
+  "titre": "Demande d'achat de fournitures",
+  "texte": "Demande d'achat n° 117. Le service de l'accueil demande l'achat de fournitures de bureau pour le premier trimestre 2027 : ramettes de papier A4, cartouches d'encre pour imprimante, classeurs à levier et stylos. Le montant estimatif est de 450 000 francs djiboutiens. Une demande de trois devis auprès de fournisseurs agréés est jointe au dossier.",
+  "mots_cles_reference": [
+   "demande d'achat",
+   "fournitures de bureau",
+   "premier trimestre 2027",
+   "trois devis",
+   "fournisseurs agréés",
+   "montant estimatif"
+  ]
+ },
+ {
+  "id": "N05",
+  "split": "dev",
+  "titre": "Attestation de travail",
+  "texte": "Attestation de travail. Je soussigné, directeur des ressources humaines, certifie que Mme Hawa Omar est employée au sein de notre établissement depuis le 2 mars 2019 en qualité d'assistante administrative. La présente attestation est délivrée à l'intéressée pour servir et valoir ce que de droit.",
+  "mots_cles_reference": [
+   "attestation de travail",
+   "ressources humaines",
+   "assistante administrative",
+   "servir et valoir ce que de droit",
+   "depuis mars 2019",
+   "établissement"
+  ]
+ },
+ {
+  "id": "N06",
+  "split": "dev",
+  "titre": "État de frais de mission",
+  "texte": "État de frais de mission. Mission à Dikhil du 14 au 16 octobre 2026 pour le suivi des écoles partenaires. Les frais comprennent le transport aller-retour, deux nuits d'hébergement et les indemnités journalières de subsistance. Les justificatifs originaux, billets et factures d'hôtel, sont joints. Le total à rembourser s'élève à 85 000 francs djiboutiens.",
+  "mots_cles_reference": [
+   "frais de mission",
+   "indemnités journalières",
+   "justificatifs originaux",
+   "remboursement",
+   "suivi des écoles partenaires",
+   "Dikhil"
+  ]
+ },
+ {
+  "id": "N07",
+  "split": "dev",
+  "titre": "Circulaire sur la sécurité informatique",
+  "texte": "Circulaire relative à la sécurité des postes de travail. Tous les agents doivent verrouiller leur session lorsqu'ils quittent leur poste et changer leur mot de passe tous les quatre-vingt-dix jours. Il est interdit d'installer des logiciels non validés par le service informatique. Toute perte de matériel doit être signalée dans les vingt-quatre heures.",
+  "mots_cles_reference": [
+   "sécurité informatique",
+   "postes de travail",
+   "mot de passe",
+   "logiciels non validés",
+   "service informatique",
+   "perte de matériel"
+  ]
+ },
+ {
+  "id": "N08",
+  "split": "dev",
+  "titre": "Avis de recrutement",
+  "texte": "Avis de recrutement d'un agent de saisie à durée déterminée de six mois. Les candidats doivent être titulaires d'un baccalauréat et maîtriser le traitement de texte et les tableurs. Les dossiers, comprenant une lettre de motivation, un curriculum vitae et les copies des diplômes, sont à déposer au secrétariat général avant le 15 décembre 2026.",
+  "mots_cles_reference": [
+   "avis de recrutement",
+   "agent de saisie",
+   "durée déterminée",
+   "lettre de motivation",
+   "secrétariat général",
+   "dossier de candidature"
+  ]
+ },
+ {
+  "id": "N09",
+  "split": "dev",
+  "titre": "Rapport d'activité trimestriel",
+  "texte": "Rapport d'activité du troisième trimestre 2026. Le service a traité 412 courriers entrants et 287 courriers sortants. Le délai moyen de traitement est passé de cinq à trois jours ouvrables. Deux difficultés persistent : l'insuffisance de personnel pendant les congés et les pannes répétées du scanner du bureau de réception.",
+  "mots_cles_reference": [
+   "rapport d'activité",
+   "courriers entrants",
+   "délai de traitement",
+   "pannes répétées",
+   "insuffisance de personnel",
+   "scanner du bureau de réception"
+  ]
+ },
+ {
+  "id": "N10",
+  "split": "dev",
+  "titre": "Demande de subvention",
+  "texte": "Demande de subvention de fonctionnement. L'association des parents d'élèves de l'école primaire de Balbala sollicite une aide de 600 000 francs djiboutiens pour l'achat de matériel pédagogique et la réparation des sanitaires. Le dossier comprend les statuts, le bilan financier de l'exercice précédent et la liste des bénéficiaires.",
+  "mots_cles_reference": [
+   "demande de subvention",
+   "association des parents d'élèves",
+   "matériel pédagogique",
+   "bilan financier",
+   "liste des bénéficiaires",
+   "statuts"
+  ]
+ },
+ {
+  "id": "N11",
+  "split": "eval",
+  "titre": "Horaires de travail pendant le ramadan",
+  "texte": "Note de service relative aux horaires de travail durant le mois de ramadan. Les bureaux ouvriront de huit heures à treize heures trente. La pause déjeuner est supprimée. Les agents sont invités à respecter la ponctualité et à signaler toute absence au chef de service avant neuf heures.",
+  "mots_cles_reference": [
+   "horaires de travail",
+   "mois de ramadan",
+   "ouverture des bureaux",
+   "pause déjeuner",
+   "ponctualité",
+   "signalement des absences"
+  ]
+ },
+ {
+  "id": "N12",
+  "split": "eval",
+  "titre": "Convocation du jury de concours",
+  "texte": "Convocation des membres du jury du concours de recrutement de techniciens de laboratoire. Les épreuves écrites se dérouleront du 8 au 10 décembre. Les membres sont priés de signer la déclaration d'impartialité avant l'ouverture des épreuves et de remettre leurs grilles de notation dans des enveloppes scellées.",
+  "mots_cles_reference": [
+   "jury de concours",
+   "techniciens de laboratoire",
+   "épreuves écrites",
+   "déclaration d'impartialité",
+   "grilles de notation",
+   "enveloppes scellées"
+  ]
+ },
+ {
+  "id": "N13",
+  "split": "eval",
+  "titre": "Autorisation d'absence",
+  "texte": "Demande d'autorisation d'absence pour raisons familiales. Je sollicite une autorisation d'absence de deux jours, les 19 et 20 novembre, suite au décès d'un membre de ma famille. Je m'engage à rattraper les dossiers urgents à mon retour et à transmettre les pièces justificatives au service du personnel.",
+  "mots_cles_reference": [
+   "autorisation d'absence",
+   "raisons familiales",
+   "pièces justificatives",
+   "service du personnel",
+   "dossiers urgents",
+   "rattrapage"
+  ]
+ },
+ {
+  "id": "N14",
+  "split": "eval",
+  "titre": "Avis de paiement d'une facture",
+  "texte": "Avis de paiement. La facture n° 2026-0457 relative à la maintenance des climatiseurs du bâtiment administratif a été validée et sera réglée par virement bancaire sous quinze jours. Le montant net, après retenue à la source, s'élève à 312 500 francs djiboutiens. Merci de transmettre votre relevé d'identité bancaire si celui-ci a changé.",
+  "mots_cles_reference": [
+   "avis de paiement",
+   "facture fournisseur",
+   "maintenance des climatiseurs",
+   "virement bancaire",
+   "retenue à la source",
+   "relevé d'identité bancaire"
+  ]
+ },
+ {
+  "id": "N15",
+  "split": "eval",
+  "titre": "Procès-verbal du conseil d'administration",
+  "texte": "Procès-verbal de la réunion du conseil d'administration du 12 novembre 2026. Le conseil a approuvé le budget révisé de l'exercice et autorisé le recrutement de deux agents d'entretien. Le président a rappelé la nécessité de finaliser le règlement intérieur avant la fin de l'année. Le prochain conseil est fixé au mois de janvier.",
+  "mots_cles_reference": [
+   "procès-verbal",
+   "conseil d'administration",
+   "budget révisé",
+   "recrutement d'agents d'entretien",
+   "règlement intérieur",
+   "prochain conseil"
+  ]
+ },
+ {
+  "id": "N16",
+  "split": "eval",
+  "titre": "Demande de prise en charge de formation",
+  "texte": "Demande de prise en charge des frais de formation. Je souhaite suivre une formation de dix jours sur la gestion de bases de données relationnelles, organisée en décembre. Le coût d'inscription est de 180 000 francs djiboutiens. Je joins le programme de la formation et l'avis favorable de mon supérieur hiérarchique.",
+  "mots_cles_reference": [
+   "prise en charge des frais de formation",
+   "gestion de bases de données",
+   "coût d'inscription",
+   "programme de la formation",
+   "supérieur hiérarchique",
+   "avis favorable"
+  ]
+ },
+ {
+  "id": "N17",
+  "split": "eval",
+  "titre": "Circulaire sur l'archivage",
+  "texte": "Circulaire relative à l'archivage des documents administratifs. Les dossiers clôturés depuis plus de cinq ans doivent être transférés aux archives intermédiaires. Chaque boîte d'archives sera étiquetée avec la référence du dossier, l'année et le service d'origine. Un bordereau de versement doit accompagner chaque transfert.",
+  "mots_cles_reference": [
+   "archivage des documents",
+   "dossiers clôturés",
+   "archives intermédiaires",
+   "bordereau de versement",
+   "étiquetage des boîtes",
+   "service d'origine"
+  ]
+ },
+ {
+  "id": "N18",
+  "split": "eval",
+  "titre": "Planning d'entretien des locaux",
+  "texte": "Note relative au planning d'entretien des locaux. Le nettoyage des bureaux sera assuré chaque matin entre six heures et huit heures. Les sanitaires feront l'objet d'un passage supplémentaire à midi. Le responsable du site doit signaler toute anomalie au moyen du registre prévu à l'accueil.",
+  "mots_cles_reference": [
+   "planning d'entretien",
+   "nettoyage des bureaux",
+   "passage supplémentaire",
+   "responsable du site",
+   "registre d'anomalies",
+   "accueil"
+  ]
+ },
+ {
+  "id": "N19",
+  "split": "eval",
+  "titre": "Réclamation d'un usager",
+  "texte": "Objet : réclamation concernant le retard de délivrance d'un certificat de résidence. Le dossier déposé le 3 septembre n'a toujours pas reçu de réponse à ce jour. Je demande que le certificat soit délivré dans les meilleurs délais ou qu'une justification écrite me soit fournie.",
+  "mots_cles_reference": [
+   "réclamation",
+   "retard de délivrance",
+   "certificat de résidence",
+   "justification écrite",
+   "délai de réponse",
+   "dépôt de dossier"
+  ]
+ },
+ {
+  "id": "N20",
+  "split": "eval",
+  "titre": "Note de cadrage d'un projet informatique",
+  "texte": "Note de cadrage du projet de dématérialisation des bourses d'études. Le projet vise à permettre le dépôt en ligne des dossiers de bourse et leur suivi par les étudiants. La phase pilote concernera deux facultés pendant le premier semestre 2027. Le budget prévisionnel et les indicateurs de réussite sont détaillés en annexe.",
+  "mots_cles_reference": [
+   "dématérialisation des bourses",
+   "dépôt en ligne",
+   "phase pilote",
+   "budget prévisionnel",
+   "indicateurs de réussite",
+   "premier semestre 2027"
+  ]
+ },
+ {
+  "id": "N21",
+  "split": "eval",
+  "titre": "Décision d'affectation",
+  "texte": "Décision n° 089 portant affectation de Monsieur Youssouf Hassan au service de la comptabilité à compter du 1er janvier 2027. Ce changement d'affectation n'entraîne aucune modification de sa rémunération. Les dossiers en cours seront transmis au nouveau responsable dans un délai de dix jours.",
+  "mots_cles_reference": [
+   "décision d'affectation",
+   "service de la comptabilité",
+   "modification de rémunération",
+   "dossiers en cours",
+   "nouveau responsable",
+   "changement d'affectation"
+  ]
+ },
+ {
+  "id": "N22",
+  "split": "eval",
+  "titre": "Compte rendu de visite de terrain",
+  "texte": "Compte rendu de la visite de terrain dans trois écoles de la région de Tadjourah. Les équipements informatiques sont présents mais la connexion internet est intermittente. Les enseignants demandent une formation à l'usage des tableaux numériques. Une seconde visite est prévue en février pour vérifier la mise en place des recommandations.",
+  "mots_cles_reference": [
+   "visite de terrain",
+   "région de Tadjourah",
+   "connexion internet",
+   "tableaux numériques",
+   "formation des enseignants",
+   "recommandations"
+  ]
+ },
+ {
+  "id": "N23",
+  "split": "eval",
+  "titre": "Ouverture d'un guichet de paiement",
+  "texte": "Note de service relative à l'ouverture d'un guichet de paiement supplémentaire. À compter du lundi 7 décembre, le guichet numéro trois accueillera le public pour le règlement des droits d'inscription. Les horaires d'ouverture sont fixés de neuf heures à quinze heures, sans interruption.",
+  "mots_cles_reference": [
+   "guichet de paiement",
+   "droits d'inscription",
+   "horaires d'ouverture",
+   "accueil du public",
+   "règlement des frais",
+   "note de service"
+  ]
+ },
+ {
+  "id": "N24",
+  "split": "eval",
+  "titre": "Demande de remplacement de matériel",
+  "texte": "Demande de remplacement de matériel informatique. Trois ordinateurs du service de la scolarité datent de plus de huit ans et ne peuvent plus faire tourner le logiciel de gestion des notes. Le coût estimé du remplacement est de 2 400 000 francs djiboutiens. Une fiche technique détaillée est jointe à la présente demande.",
+  "mots_cles_reference": [
+   "remplacement de matériel informatique",
+   "service de la scolarité",
+   "logiciel de gestion des notes",
+   "coût estimé",
+   "fiche technique",
+   "ordinateurs"
+  ]
+ },
+ {
+  "id": "N25",
+  "split": "eval",
+  "titre": "Convocation à l'entretien d'évaluation",
+  "texte": "Convocation à l'entretien annuel d'évaluation. Vous êtes invité à un entretien le mardi 1er décembre à 14 heures dans le bureau de la direction des ressources humaines. Merci de préparer votre bilan des objectifs de l'année et vos propositions d'objectifs pour l'année prochaine.",
+  "mots_cles_reference": [
+   "entretien annuel d'évaluation",
+   "bilan des objectifs",
+   "direction des ressources humaines",
+   "propositions d'objectifs",
+   "convocation",
+   "mardi 1er décembre"
+  ]
+ },
+ {
+  "id": "N26",
+  "split": "eval",
+  "titre": "Exercice d'évacuation incendie",
+  "texte": "Note relative aux exercices d'évacuation incendie. Un exercice d'évacuation aura lieu le jeudi 26 novembre à 11 heures. Les agents sont invités à suivre les consignes affichées dans les couloirs et à rejoindre le point de rassemblement situé sur le parking. Les personnes à mobilité réduite seront accompagnées par les membres de l'équipe de sécurité.",
+  "mots_cles_reference": [
+   "exercice d'évacuation",
+   "consignes de sécurité",
+   "point de rassemblement",
+   "mobilité réduite",
+   "équipe de sécurité",
+   "incendie"
+  ]
+ },
+ {
+  "id": "N27",
+  "split": "eval",
+  "titre": "Demande de convention de stage",
+  "texte": "Demande de convention de stage. L'étudiant de troisième année de licence sollicite une convention de stage de deux mois au sein du service statistiques, à partir du 4 janvier 2027. Le stage porte sur l'analyse des données d'enquête. Une lettre d'acceptation du tuteur pédagogique est jointe au dossier.",
+  "mots_cles_reference": [
+   "convention de stage",
+   "service statistiques",
+   "analyse des données d'enquête",
+   "tuteur pédagogique",
+   "lettre d'acceptation",
+   "troisième année de licence"
+  ]
+ },
+ {
+  "id": "N28",
+  "split": "eval",
+  "titre": "Accusé de réception d'une demande de mutation",
+  "texte": "Accusé de réception de votre courrier du 9 novembre 2026 relatif à la demande de mutation. Votre dossier a bien été enregistré sous la référence MUT-2026-114. Il sera examiné lors de la prochaine commission administrative. Vous serez informé de la décision par courrier dans un délai de deux mois.",
+  "mots_cles_reference": [
+   "accusé de réception",
+   "demande de mutation",
+   "référence du dossier",
+   "commission administrative",
+   "délai de décision",
+   "enregistrement"
+  ]
+ },
+ {
+  "id": "N29",
+  "split": "eval",
+  "titre": "Fermeture exceptionnelle des bureaux",
+  "texte": "Note de service portant fermeture exceptionnelle des bureaux le vendredi 4 décembre à l'occasion de la journée de formation interne sur la gestion électronique des documents. Les demandes urgentes seront traitées le matin du lundi suivant.",
+  "mots_cles_reference": [
+   "fermeture exceptionnelle",
+   "formation interne",
+   "gestion électronique des documents",
+   "demandes urgentes",
+   "journée de formation",
+   "note de service"
+  ]
+ },
+ {
+  "id": "N30",
+  "split": "eval",
+  "titre": "Demande de mutation",
+  "texte": "Demande de mutation vers le service de la planification. Je souhaite être affecté au service de la planification à compter de janvier 2027, en raison de ma formation en statistiques. Je suis disponible pour une prise de poste anticipée. Mon supérieur actuel a émis un avis favorable.",
+  "mots_cles_reference": [
+   "demande de mutation",
+   "service de la planification",
+   "formation en statistiques",
+   "prise de poste",
+   "avis favorable",
+   "supérieur hiérarchique"
+  ]
+ },
+ {
+  "id": "N31",
+  "split": "test",
+  "titre": "Demande de congé exceptionnel",
+  "texte": "Objet : demande de congé exceptionnel. Je soussigné, agent du service de la paie, informe le service des ressources humaines de mon absence pour raison personnelle du 3 au 7 décembre 2026. Un justificatif d'absence sera transmis dès mon retour. Je demande que mes dossiers en cours soient réaffectés à ma collègue pendant cette période.",
+  "mots_cles_reference": [
+   "congé exceptionnel",
+   "service de la paie",
+   "ressources humaines",
+   "justificatif d'absence",
+   "dossiers en cours",
+   "réaffectation"
+  ]
+ },
+ {
+  "id": "N32",
+  "split": "test",
+  "titre": "Appel d'offres pour fournitures informatiques",
+  "texte": "Avis d'appel d'offres n° 07/2026 pour la fourniture de cartouches d'impression et de disques durs externes. Les soumissionnaires doivent déposer leur offre sous pli fermé au plus tard le 18 décembre 2026 à 12 heures. Le dossier de consultation précise les critères d'évaluation, dont le prix, les délais de livraison et la garantie.",
+  "mots_cles_reference": [
+   "appel d'offres",
+   "fourniture informatique",
+   "offre sous pli fermé",
+   "dossier de consultation",
+   "critères d'évaluation",
+   "délai de livraison"
+  ]
+ },
+ {
+  "id": "N33",
+  "split": "test",
+  "titre": "Compte rendu de formation du personnel",
+  "texte": "Compte rendu de la formation sur la sécurité des données, suivie par quinze agents du secteur administratif. La formation a porté sur les mots de passe, la sauvegarde des fichiers et le signalement des incidents. Les participants ont rempli un questionnaire d'évaluation dont le taux de satisfaction atteint quatre-vingt-cinq pour cent.",
+  "mots_cles_reference": [
+   "formation du personnel",
+   "sécurité des données",
+   "sauvegarde des fichiers",
+   "signalement des incidents",
+   "questionnaire d'évaluation",
+   "taux de satisfaction"
+  ]
+ },
+ {
+  "id": "N34",
+  "split": "test",
+  "titre": "Note sur le stationnement des véhicules de service",
+  "texte": "Note de service relative au stationnement des véhicules de service. Les véhicules doivent être garés dans la cour intérieure et leurs clés déposées au poste de garde. Toute utilisation hors mission doit faire l'objet d'un ordre de mission signé par le directeur. Un registre de sortie sera tenu par le gardien.",
+  "mots_cles_reference": [
+   "stationnement des véhicules",
+   "véhicules de service",
+   "cour intérieure",
+   "clés",
+   "ordre de mission",
+   "registre de sortie"
+  ]
+ },
+ {
+  "id": "N35",
+  "split": "test",
+  "titre": "Réponse à une demande de renseignements",
+  "texte": "Objet : réponse à votre demande de renseignements sur les modalités d'inscription aux examens professionnels. Les inscriptions sont ouvertes jusqu'au 30 janvier 2027 sur le portail des candidats. Il vous faudra fournir une photocopie de votre pièce d'identité et deux photographies récentes. Pour toute question, le bureau des examens reste joignable par téléphone.",
+  "mots_cles_reference": [
+   "demande de renseignements",
+   "modalités d'inscription",
+   "examens professionnels",
+   "portail des candidats",
+   "pièce d'identité",
+   "bureau des examens"
+  ]
+ },
+ {
+  "id": "N36",
+  "split": "test",
+  "titre": "Avis de vacance de poste de chef de service",
+  "texte": "Avis de vacance de poste de chef de service de la logistique. Le poste est ouvert aux fonctionnaires de catégorie A justifiant de cinq années d'expérience dans la gestion d'équipes. La prise de fonction est prévue au 1er mars 2027. Les candidatures sont à adresser à la direction générale avant le 20 janvier 2027.",
+  "mots_cles_reference": [
+   "vacance de poste",
+   "chef de service",
+   "logistique",
+   "catégorie A",
+   "expérience dans la gestion d'équipes",
+   "direction générale"
+  ]
+ },
+ {
+  "id": "N37",
+  "split": "test",
+  "titre": "Note de transmission de rapport budgétaire",
+  "texte": "Transmission du rapport budgétaire de l'exercice 2026 au ministère de tutelle. Le rapport présente l'exécution des dépenses par chapitre, les écarts constatés et les mesures correctrices envisagées. Il est accompagné des états de rapprochement bancaire des trois derniers mois. Merci d'accuser réception de ce document.",
+  "mots_cles_reference": [
+   "rapport budgétaire",
+   "exécution des dépenses",
+   "écarts constatés",
+   "mesures correctrices",
+   "rapprochement bancaire",
+   "ministère de tutelle"
+  ]
+ },
+ {
+  "id": "N38",
+  "split": "test",
+  "titre": "Convocation à une audience administrative",
+  "texte": "Convocation à l'audience de la commission de discipline du 9 décembre 2026 à 9 heures. Vous êtes invité à présenter vos observations écrites ou orales. Vous pouvez vous faire assister par un défenseur de votre choix. Le dossier est consultable au secrétariat de la commission sur rendez-vous.",
+  "mots_cles_reference": [
+   "audience administrative",
+   "commission de discipline",
+   "observations écrites",
+   "défenseur",
+   "dossier consultable",
+   "secrétariat de la commission"
+  ]
+ },
+ {
+  "id": "N39",
+  "split": "test",
+  "titre": "Demande de maintenance d'un ascenseur",
+  "texte": "Demande d'intervention urgente pour la maintenance de l'ascenseur du bâtiment B. L'appareil est immobilisé depuis lundi et plusieurs agents à mobilité réduite ne peuvent plus accéder au second étage. Le technicien habituel est attendu dans la matinée. Une copie de cette demande est transmise au service de sécurité.",
+  "mots_cles_reference": [
+   "maintenance de l'ascenseur",
+   "intervention urgente",
+   "mobilité réduite",
+   "bâtiment B",
+   "technicien",
+   "service de sécurité"
+  ]
+ },
+ {
+  "id": "N40",
+  "split": "test",
+  "titre": "Note relative aux heures supplémentaires",
+  "texte": "Note de service relative au décompte des heures supplémentaires du mois de novembre. Les états doivent être remis au service de la paie avant le 5 décembre. Seules les heures validées par le chef de service sont rémunérables. Un plafond mensuel de quarante heures s'applique à chaque agent sauf dérogation écrite.",
+  "mots_cles_reference": [
+   "heures supplémentaires",
+   "décompte des heures",
+   "service de la paie",
+   "heures validées",
+   "plafond mensuel",
+   "dérogation écrite"
+  ]
+ }
+]

@@ -1,0 +1,801 @@
+id,methode,rang,mot_cle,correspond_reference
+N11,baseline_tfidf_mots,1,heures,False
+N11,baseline_tfidf_mots,2,chef,False
+N11,baseline_tfidf_mots,3,durant,False
+N11,baseline_tfidf_mots,4,déjeuner,True
+N11,baseline_tfidf_mots,5,ouvriront,False
+N11,baseline_tfidf_mots,6,pause,True
+N11,baseline_tfidf_mots,7,ponctualité,True
+N11,baseline_tfidf_mots,8,ramadan,True
+N11,baseline_tfidf_mots,9,respecter,False
+N11,baseline_tfidf_mots,10,supprimée,False
+N12,baseline_tfidf_mots,1,épreuves,True
+N12,baseline_tfidf_mots,2,membres,False
+N12,baseline_tfidf_mots,3,concours,True
+N12,baseline_tfidf_mots,4,déclaration,True
+N12,baseline_tfidf_mots,5,dérouleront,False
+N12,baseline_tfidf_mots,6,enveloppes,True
+N12,baseline_tfidf_mots,7,grilles,True
+N12,baseline_tfidf_mots,8,impartialité,True
+N12,baseline_tfidf_mots,9,jury,True
+N12,baseline_tfidf_mots,10,laboratoire,True
+N13,baseline_tfidf_mots,1,autorisation,True
+N13,baseline_tfidf_mots,2,absence,True
+N13,baseline_tfidf_mots,3,décès,False
+N13,baseline_tfidf_mots,4,engage,False
+N13,baseline_tfidf_mots,5,familiales,True
+N13,baseline_tfidf_mots,6,famille,False
+N13,baseline_tfidf_mots,7,justificatives,True
+N13,baseline_tfidf_mots,8,membre,False
+N13,baseline_tfidf_mots,9,pièces,True
+N13,baseline_tfidf_mots,10,raisons,True
+N14,baseline_tfidf_mots,1,bancaire,True
+N14,baseline_tfidf_mots,2,0457,False
+N14,baseline_tfidf_mots,3,312,False
+N14,baseline_tfidf_mots,4,500,False
+N14,baseline_tfidf_mots,5,administratif,False
+N14,baseline_tfidf_mots,6,bâtiment,False
+N14,baseline_tfidf_mots,7,changé,False
+N14,baseline_tfidf_mots,8,climatiseurs,True
+N14,baseline_tfidf_mots,9,facture,True
+N14,baseline_tfidf_mots,10,identité,True
+N15,baseline_tfidf_mots,1,conseil,True
+N15,baseline_tfidf_mots,2,administration,True
+N15,baseline_tfidf_mots,3,approuvé,False
+N15,baseline_tfidf_mots,4,autorisé,False
+N15,baseline_tfidf_mots,5,fin,False
+N15,baseline_tfidf_mots,6,finaliser,False
+N15,baseline_tfidf_mots,7,fixé,False
+N15,baseline_tfidf_mots,8,intérieur,True
+N15,baseline_tfidf_mots,9,nécessité,False
+N15,baseline_tfidf_mots,10,prochain,True
+N16,baseline_tfidf_mots,1,formation,True
+N16,baseline_tfidf_mots,2,180,False
+N16,baseline_tfidf_mots,3,bases,True
+N16,baseline_tfidf_mots,4,charge,True
+N16,baseline_tfidf_mots,5,hiérarchique,True
+N16,baseline_tfidf_mots,6,joins,False
+N16,baseline_tfidf_mots,7,organisée,False
+N16,baseline_tfidf_mots,8,programme,True
+N16,baseline_tfidf_mots,9,relationnelles,False
+N16,baseline_tfidf_mots,10,coût,True
+N17,baseline_tfidf_mots,1,archives,True
+N17,baseline_tfidf_mots,2,accompagner,False
+N17,baseline_tfidf_mots,3,administratifs,False
+N17,baseline_tfidf_mots,4,archivage,True
+N17,baseline_tfidf_mots,5,bordereau,True
+N17,baseline_tfidf_mots,6,boîte,True
+N17,baseline_tfidf_mots,7,clôturés,True
+N17,baseline_tfidf_mots,8,intermédiaires,True
+N17,baseline_tfidf_mots,9,origine,True
+N17,baseline_tfidf_mots,10,transfert,False
+N18,baseline_tfidf_mots,1,heures,False
+N18,baseline_tfidf_mots,2,anomalie,True
+N18,baseline_tfidf_mots,3,assuré,False
+N18,baseline_tfidf_mots,4,feront,False
+N18,baseline_tfidf_mots,5,locaux,False
+N18,baseline_tfidf_mots,6,midi,False
+N18,baseline_tfidf_mots,7,nettoyage,True
+N18,baseline_tfidf_mots,8,passage,True
+N18,baseline_tfidf_mots,9,planning,True
+N18,baseline_tfidf_mots,10,prévu,False
+N19,baseline_tfidf_mots,1,certificat,True
+N19,baseline_tfidf_mots,2,soit,False
+N19,baseline_tfidf_mots,3,concernant,False
+N19,baseline_tfidf_mots,4,délais,True
+N19,baseline_tfidf_mots,5,délivrance,True
+N19,baseline_tfidf_mots,6,délivré,False
+N19,baseline_tfidf_mots,7,déposé,False
+N19,baseline_tfidf_mots,8,fournie,False
+N19,baseline_tfidf_mots,9,justification,True
+N19,baseline_tfidf_mots,10,meilleurs,False
+N20,baseline_tfidf_mots,1,projet,False
+N20,baseline_tfidf_mots,2,annexe,False
+N20,baseline_tfidf_mots,3,bourse,True
+N20,baseline_tfidf_mots,4,bourses,True
+N20,baseline_tfidf_mots,5,cadrage,False
+N20,baseline_tfidf_mots,6,concernera,False
+N20,baseline_tfidf_mots,7,dématérialisation,True
+N20,baseline_tfidf_mots,8,dépôt,True
+N20,baseline_tfidf_mots,9,détaillés,False
+N20,baseline_tfidf_mots,10,facultés,False
+N21,baseline_tfidf_mots,1,affectation,True
+N21,baseline_tfidf_mots,2,089,False
+N21,baseline_tfidf_mots,3,aucune,False
+N21,baseline_tfidf_mots,4,changement,True
+N21,baseline_tfidf_mots,5,comptabilité,True
+N21,baseline_tfidf_mots,6,cours,True
+N21,baseline_tfidf_mots,7,entraîne,False
+N21,baseline_tfidf_mots,8,hassan,False
+N21,baseline_tfidf_mots,9,modification,True
+N21,baseline_tfidf_mots,10,monsieur,False
+N22,baseline_tfidf_mots,1,visite,True
+N22,baseline_tfidf_mots,2,compte,False
+N22,baseline_tfidf_mots,3,connexion,True
+N22,baseline_tfidf_mots,4,demandent,False
+N22,baseline_tfidf_mots,5,enseignants,True
+N22,baseline_tfidf_mots,6,février,False
+N22,baseline_tfidf_mots,7,informatiques,False
+N22,baseline_tfidf_mots,8,intermittente,False
+N22,baseline_tfidf_mots,9,internet,True
+N22,baseline_tfidf_mots,10,mise,False
+N23,baseline_tfidf_mots,1,guichet,True
+N23,baseline_tfidf_mots,2,ouverture,True
+N23,baseline_tfidf_mots,3,heures,False
+N23,baseline_tfidf_mots,4,accueillera,False
+N23,baseline_tfidf_mots,5,droits,True
+N23,baseline_tfidf_mots,6,fixés,False
+N23,baseline_tfidf_mots,7,interruption,False
+N23,baseline_tfidf_mots,8,numéro,False
+N23,baseline_tfidf_mots,9,public,True
+N23,baseline_tfidf_mots,10,horaires,True
+N24,baseline_tfidf_mots,1,remplacement,True
+N24,baseline_tfidf_mots,2,400,False
+N24,baseline_tfidf_mots,3,datent,False
+N24,baseline_tfidf_mots,4,détaillée,False
+N24,baseline_tfidf_mots,5,estimé,True
+N24,baseline_tfidf_mots,6,fiche,True
+N24,baseline_tfidf_mots,7,logiciel,True
+N24,baseline_tfidf_mots,8,ordinateurs,True
+N24,baseline_tfidf_mots,9,scolarité,True
+N24,baseline_tfidf_mots,10,technique,True
+N25,baseline_tfidf_mots,1,objectifs,True
+N25,baseline_tfidf_mots,2,entretien,True
+N25,baseline_tfidf_mots,3,année,False
+N25,baseline_tfidf_mots,4,invité,False
+N25,baseline_tfidf_mots,5,mardi,True
+N25,baseline_tfidf_mots,6,propositions,True
+N25,baseline_tfidf_mots,7,préparer,False
+N25,baseline_tfidf_mots,8,évaluation,True
+N25,baseline_tfidf_mots,9,êtes,False
+N25,baseline_tfidf_mots,10,annuel,True
+N26,baseline_tfidf_mots,1,évacuation,True
+N26,baseline_tfidf_mots,2,accompagnées,False
+N26,baseline_tfidf_mots,3,affichées,False
+N26,baseline_tfidf_mots,4,aura,False
+N26,baseline_tfidf_mots,5,consignes,True
+N26,baseline_tfidf_mots,6,couloirs,False
+N26,baseline_tfidf_mots,7,exercices,True
+N26,baseline_tfidf_mots,8,incendie,True
+N26,baseline_tfidf_mots,9,lieu,False
+N26,baseline_tfidf_mots,10,mobilité,True
+N27,baseline_tfidf_mots,1,stage,True
+N27,baseline_tfidf_mots,2,convention,True
+N27,baseline_tfidf_mots,3,acceptation,True
+N27,baseline_tfidf_mots,4,analyse,True
+N27,baseline_tfidf_mots,5,enquête,True
+N27,baseline_tfidf_mots,6,licence,True
+N27,baseline_tfidf_mots,7,partir,False
+N27,baseline_tfidf_mots,8,tuteur,True
+N27,baseline_tfidf_mots,9,étudiant,False
+N27,baseline_tfidf_mots,10,données,True
+N28,baseline_tfidf_mots,1,courrier,False
+N28,baseline_tfidf_mots,2,2026,False
+N28,baseline_tfidf_mots,3,114,False
+N28,baseline_tfidf_mots,4,accusé,True
+N28,baseline_tfidf_mots,5,commission,True
+N28,baseline_tfidf_mots,6,enregistré,False
+N28,baseline_tfidf_mots,7,examiné,False
+N28,baseline_tfidf_mots,8,informé,False
+N28,baseline_tfidf_mots,9,mut,False
+N28,baseline_tfidf_mots,10,relatif,False
+N29,baseline_tfidf_mots,1,exceptionnelle,True
+N29,baseline_tfidf_mots,2,fermeture,True
+N29,baseline_tfidf_mots,3,journée,True
+N29,baseline_tfidf_mots,4,occasion,False
+N29,baseline_tfidf_mots,5,suivant,False
+N29,baseline_tfidf_mots,6,traitées,False
+N29,baseline_tfidf_mots,7,urgentes,True
+N29,baseline_tfidf_mots,8,vendredi,False
+N29,baseline_tfidf_mots,9,électronique,True
+N29,baseline_tfidf_mots,10,demandes,True
+N30,baseline_tfidf_mots,1,planification,True
+N30,baseline_tfidf_mots,2,actuel,False
+N30,baseline_tfidf_mots,3,affecté,False
+N30,baseline_tfidf_mots,4,anticipée,False
+N30,baseline_tfidf_mots,5,disponible,False
+N30,baseline_tfidf_mots,6,raison,False
+N30,baseline_tfidf_mots,7,suis,False
+N30,baseline_tfidf_mots,8,émis,False
+N30,baseline_tfidf_mots,9,favorable,True
+N30,baseline_tfidf_mots,10,mutation,True
+N11,approche2a_phrases_tfidf,1,bureaux ouvriront,False
+N11,approche2a_phrases_tfidf,2,chef,False
+N11,approche2a_phrases_tfidf,3,pause déjeuner,True
+N11,approche2a_phrases_tfidf,4,ponctualité,True
+N11,approche2a_phrases_tfidf,5,ramadan,True
+N11,approche2a_phrases_tfidf,6,respecter,False
+N11,approche2a_phrases_tfidf,7,supprimée,False
+N11,approche2a_phrases_tfidf,8,travail durant,False
+N11,approche2a_phrases_tfidf,9,treize heures,False
+N11,approche2a_phrases_tfidf,10,trente,False
+N12,approche2a_phrases_tfidf,1,membres,False
+N12,approche2a_phrases_tfidf,2,concours,True
+N12,approche2a_phrases_tfidf,3,déclaration,True
+N12,approche2a_phrases_tfidf,4,dérouleront,False
+N12,approche2a_phrases_tfidf,5,enveloppes scellées,True
+N12,approche2a_phrases_tfidf,6,grilles,True
+N12,approche2a_phrases_tfidf,7,impartialité,True
+N12,approche2a_phrases_tfidf,8,jury,True
+N12,approche2a_phrases_tfidf,9,laboratoire,True
+N12,approche2a_phrases_tfidf,10,notation,True
+N13,approche2a_phrases_tfidf,1,autorisation,True
+N13,approche2a_phrases_tfidf,2,absence,True
+N13,approche2a_phrases_tfidf,3,deux jours,False
+N13,approche2a_phrases_tfidf,4,dossiers urgents,True
+N13,approche2a_phrases_tfidf,5,décès,False
+N13,approche2a_phrases_tfidf,6,engage,False
+N13,approche2a_phrases_tfidf,7,famille,False
+N13,approche2a_phrases_tfidf,8,membre,False
+N13,approche2a_phrases_tfidf,9,novembre suite,False
+N13,approche2a_phrases_tfidf,10,pièces justificatives,True
+N14,approche2a_phrases_tfidf,1,2026 0457,False
+N14,approche2a_phrases_tfidf,2,312 500,False
+N14,approche2a_phrases_tfidf,3,bâtiment administratif,False
+N14,approche2a_phrases_tfidf,4,changé,False
+N14,approche2a_phrases_tfidf,5,climatiseurs,True
+N14,approche2a_phrases_tfidf,6,facture,True
+N14,approche2a_phrases_tfidf,7,identité bancaire,True
+N14,approche2a_phrases_tfidf,8,maintenance,True
+N14,approche2a_phrases_tfidf,9,montant net,False
+N14,approche2a_phrases_tfidf,10,paiement,True
+N15,approche2a_phrases_tfidf,1,conseil,True
+N15,approche2a_phrases_tfidf,2,administration,True
+N15,approche2a_phrases_tfidf,3,approuvé,False
+N15,approche2a_phrases_tfidf,4,autorisé,False
+N15,approche2a_phrases_tfidf,5,budget révisé,True
+N15,approche2a_phrases_tfidf,6,deux agents,False
+N15,approche2a_phrases_tfidf,7,fin,False
+N15,approche2a_phrases_tfidf,8,finaliser,False
+N15,approche2a_phrases_tfidf,9,fixé,False
+N15,approche2a_phrases_tfidf,10,janvier,False
+N16,approche2a_phrases_tfidf,1,formation,True
+N16,approche2a_phrases_tfidf,2,180 000,False
+N16,approche2a_phrases_tfidf,3,bases,True
+N16,approche2a_phrases_tfidf,4,charge,True
+N16,approche2a_phrases_tfidf,5,coût,True
+N16,approche2a_phrases_tfidf,6,données relationnelles,False
+N16,approche2a_phrases_tfidf,7,joins,False
+N16,approche2a_phrases_tfidf,8,organisée,False
+N16,approche2a_phrases_tfidf,9,programme,True
+N16,approche2a_phrases_tfidf,10,souhaite suivre,False
+N17,approche2a_phrases_tfidf,1,accompagner,False
+N17,approche2a_phrases_tfidf,2,archivage,True
+N17,approche2a_phrases_tfidf,3,archives intermédiaires,True
+N17,approche2a_phrases_tfidf,4,bordereau,True
+N17,approche2a_phrases_tfidf,5,boîte,True
+N17,approche2a_phrases_tfidf,6,cinq ans,False
+N17,approche2a_phrases_tfidf,7,documents administratifs,False
+N17,approche2a_phrases_tfidf,8,dossiers clôturés,True
+N17,approche2a_phrases_tfidf,9,origine,True
+N17,approche2a_phrases_tfidf,10,référence,False
+N18,approche2a_phrases_tfidf,1,accueil,True
+N18,approche2a_phrases_tfidf,2,anomalie,True
+N18,approche2a_phrases_tfidf,3,assuré,False
+N18,approche2a_phrases_tfidf,4,locaux,False
+N18,approche2a_phrases_tfidf,5,midi,False
+N18,approche2a_phrases_tfidf,6,moyen,False
+N18,approche2a_phrases_tfidf,7,nettoyage,True
+N18,approche2a_phrases_tfidf,8,passage supplémentaire,True
+N18,approche2a_phrases_tfidf,9,planning,True
+N18,approche2a_phrases_tfidf,10,registre prévu,False
+N19,approche2a_phrases_tfidf,1,certificat,True
+N19,approche2a_phrases_tfidf,2,certificat soit,False
+N19,approche2a_phrases_tfidf,3,dossier déposé,False
+N19,approche2a_phrases_tfidf,4,délivrance,True
+N19,approche2a_phrases_tfidf,5,délivré,False
+N19,approche2a_phrases_tfidf,6,justification écrite,True
+N19,approche2a_phrases_tfidf,7,meilleurs délais,False
+N19,approche2a_phrases_tfidf,8,retard,True
+N19,approche2a_phrases_tfidf,9,reçu,False
+N19,approche2a_phrases_tfidf,10,réclamation concernant,True
+N20,approche2a_phrases_tfidf,1,annexe,False
+N20,approche2a_phrases_tfidf,2,bourse,True
+N20,approche2a_phrases_tfidf,3,bourses,True
+N20,approche2a_phrases_tfidf,4,budget prévisionnel,True
+N20,approche2a_phrases_tfidf,5,cadrage,False
+N20,approche2a_phrases_tfidf,6,concernera deux,False
+N20,approche2a_phrases_tfidf,7,dématérialisation,True
+N20,approche2a_phrases_tfidf,8,dépôt,True
+N20,approche2a_phrases_tfidf,9,détaillés,False
+N20,approche2a_phrases_tfidf,10,facultés,False
+N21,approche2a_phrases_tfidf,1,affectation,True
+N21,approche2a_phrases_tfidf,2,089 portant,False
+N21,approche2a_phrases_tfidf,3,1er janvier,False
+N21,approche2a_phrases_tfidf,4,changement,True
+N21,approche2a_phrases_tfidf,5,comptabilité,True
+N21,approche2a_phrases_tfidf,6,cours,True
+N21,approche2a_phrases_tfidf,7,entraîne aucune,False
+N21,approche2a_phrases_tfidf,8,hassan,False
+N21,approche2a_phrases_tfidf,9,modification,True
+N21,approche2a_phrases_tfidf,10,monsieur youssouf,False
+N22,approche2a_phrases_tfidf,1,compte rendu,False
+N22,approche2a_phrases_tfidf,2,connexion internet,True
+N22,approche2a_phrases_tfidf,3,enseignants demandent,False
+N22,approche2a_phrases_tfidf,4,février,False
+N22,approche2a_phrases_tfidf,5,intermittente,False
+N22,approche2a_phrases_tfidf,6,mise,False
+N22,approche2a_phrases_tfidf,7,place,False
+N22,approche2a_phrases_tfidf,8,présents,False
+N22,approche2a_phrases_tfidf,9,prévue,False
+N22,approche2a_phrases_tfidf,10,recommandations,True
+N23,approche2a_phrases_tfidf,1,ouverture,True
+N23,approche2a_phrases_tfidf,2,droits,True
+N23,approche2a_phrases_tfidf,3,fixés,False
+N23,approche2a_phrases_tfidf,4,guichet,True
+N23,approche2a_phrases_tfidf,5,guichet numéro,False
+N23,approche2a_phrases_tfidf,6,interruption,False
+N23,approche2a_phrases_tfidf,7,lundi,False
+N23,approche2a_phrases_tfidf,8,paiement supplémentaire,False
+N23,approche2a_phrases_tfidf,9,public,True
+N23,approche2a_phrases_tfidf,10,quinze heures,False
+N24,approche2a_phrases_tfidf,1,remplacement,True
+N24,approche2a_phrases_tfidf,2,400 000,False
+N24,approche2a_phrases_tfidf,3,coût estimé,True
+N24,approche2a_phrases_tfidf,4,détaillée,False
+N24,approche2a_phrases_tfidf,5,fiche technique,True
+N24,approche2a_phrases_tfidf,6,huit ans,False
+N24,approche2a_phrases_tfidf,7,logiciel,True
+N24,approche2a_phrases_tfidf,8,matériel informatique,True
+N24,approche2a_phrases_tfidf,9,scolarité datent,False
+N24,approche2a_phrases_tfidf,10,tourner,False
+N25,approche2a_phrases_tfidf,1,objectifs,True
+N25,approche2a_phrases_tfidf,2,année prochaine,False
+N25,approche2a_phrases_tfidf,3,bilan,True
+N25,approche2a_phrases_tfidf,4,direction,True
+N25,approche2a_phrases_tfidf,5,entretien annuel,True
+N25,approche2a_phrases_tfidf,6,mardi 1er,True
+N25,approche2a_phrases_tfidf,7,propositions,True
+N25,approche2a_phrases_tfidf,8,préparer,False
+N25,approche2a_phrases_tfidf,9,évaluation,True
+N25,approche2a_phrases_tfidf,10,êtes invité,False
+N26,approche2a_phrases_tfidf,1,accompagnées,False
+N26,approche2a_phrases_tfidf,2,consignes affichées,False
+N26,approche2a_phrases_tfidf,3,couloirs,False
+N26,approche2a_phrases_tfidf,4,exercices,True
+N26,approche2a_phrases_tfidf,5,lieu,False
+N26,approche2a_phrases_tfidf,6,mobilité réduite,True
+N26,approche2a_phrases_tfidf,7,parking,False
+N26,approche2a_phrases_tfidf,8,personnes,False
+N26,approche2a_phrases_tfidf,9,point,True
+N26,approche2a_phrases_tfidf,10,rassemblement situé,False
+N27,approche2a_phrases_tfidf,1,convention,True
+N27,approche2a_phrases_tfidf,2,stage,True
+N27,approche2a_phrases_tfidf,3,acceptation,True
+N27,approche2a_phrases_tfidf,4,analyse,True
+N27,approche2a_phrases_tfidf,5,données,True
+N27,approche2a_phrases_tfidf,6,enquête,True
+N27,approche2a_phrases_tfidf,7,licence sollicite,False
+N27,approche2a_phrases_tfidf,8,partir,False
+N27,approche2a_phrases_tfidf,9,service statistiques,True
+N27,approche2a_phrases_tfidf,10,stage porte,False
+N28,approche2a_phrases_tfidf,1,courrier,False
+N28,approche2a_phrases_tfidf,2,2026 114,False
+N28,approche2a_phrases_tfidf,3,accusé,True
+N28,approche2a_phrases_tfidf,4,administrative,True
+N28,approche2a_phrases_tfidf,5,enregistré,False
+N28,approche2a_phrases_tfidf,6,examiné,False
+N28,approche2a_phrases_tfidf,7,prochaine commission,False
+N28,approche2a_phrases_tfidf,8,relatif,False
+N28,approche2a_phrases_tfidf,9,référence mut,False
+N28,approche2a_phrases_tfidf,10,serez informé,False
+N29,approche2a_phrases_tfidf,1,demandes urgentes,True
+N29,approche2a_phrases_tfidf,2,documents,True
+N29,approche2a_phrases_tfidf,3,fermeture exceptionnelle,True
+N29,approche2a_phrases_tfidf,4,formation interne,True
+N29,approche2a_phrases_tfidf,5,gestion électronique,True
+N29,approche2a_phrases_tfidf,6,journée,True
+N29,approche2a_phrases_tfidf,7,lundi suivant,False
+N29,approche2a_phrases_tfidf,8,occasion,False
+N29,approche2a_phrases_tfidf,9,service portant,False
+N29,approche2a_phrases_tfidf,10,traitées,False
+N30,approche2a_phrases_tfidf,1,planification,True
+N30,approche2a_phrases_tfidf,2,affecté,False
+N30,approche2a_phrases_tfidf,3,poste anticipée,False
+N30,approche2a_phrases_tfidf,4,raison,False
+N30,approche2a_phrases_tfidf,5,souhaite,False
+N30,approche2a_phrases_tfidf,6,statistiques,True
+N30,approche2a_phrases_tfidf,7,suis disponible,False
+N30,approche2a_phrases_tfidf,8,supérieur actuel,False
+N30,approche2a_phrases_tfidf,9,émis,False
+N30,approche2a_phrases_tfidf,10,service,True
+N11,approche2b_textrank,1,huit heures,False
+N11,approche2b_textrank,2,treize heures,False
+N11,approche2b_textrank,3,neuf heures,False
+N11,approche2b_textrank,4,service relative,False
+N11,approche2b_textrank,5,travail durant,False
+N11,approche2b_textrank,6,pause déjeuner,True
+N11,approche2b_textrank,7,respecter,False
+N11,approche2b_textrank,8,ponctualité,True
+N11,approche2b_textrank,9,horaires,True
+N11,approche2b_textrank,10,signaler,False
+N12,approche2b_textrank,1,membres,False
+N12,approche2b_textrank,2,épreuves écrites,True
+N12,approche2b_textrank,3,enveloppes scellées,True
+N12,approche2b_textrank,4,recrutement,False
+N12,approche2b_textrank,5,notation,True
+N12,approche2b_textrank,6,jury,True
+N12,approche2b_textrank,7,concours,True
+N12,approche2b_textrank,8,grilles,True
+N12,approche2b_textrank,9,remettre,False
+N12,approche2b_textrank,10,signer,False
+N13,approche2b_textrank,1,absence,True
+N13,approche2b_textrank,2,autorisation,True
+N13,approche2b_textrank,3,dossiers urgents,True
+N13,approche2b_textrank,4,pièces justificatives,True
+N13,approche2b_textrank,5,novembre suite,False
+N13,approche2b_textrank,6,deux jours,False
+N13,approche2b_textrank,7,décès,False
+N13,approche2b_textrank,8,retour,False
+N13,approche2b_textrank,9,transmettre,False
+N13,approche2b_textrank,10,rattraper,False
+N14,approche2b_textrank,1,312 500 francs,False
+N14,approche2b_textrank,2,identité bancaire,True
+N14,approche2b_textrank,3,virement bancaire,True
+N14,approche2b_textrank,4,0457 relative,False
+N14,approche2b_textrank,5,bâtiment administratif,False
+N14,approche2b_textrank,6,retenue,True
+N14,approche2b_textrank,7,source,True
+N14,approche2b_textrank,8,élève,False
+N14,approche2b_textrank,9,maintenance,True
+N14,approche2b_textrank,10,climatiseurs,True
+N15,approche2b_textrank,1,conseil,True
+N15,approche2b_textrank,2,règlement intérieur,True
+N15,approche2b_textrank,3,budget révisé,True
+N15,approche2b_textrank,4,deux agents,False
+N15,approche2b_textrank,5,nécessité,False
+N15,approche2b_textrank,6,finaliser,False
+N15,approche2b_textrank,7,fixé,False
+N15,approche2b_textrank,8,administration,True
+N15,approche2b_textrank,9,réunion,False
+N15,approche2b_textrank,10,recrutement,True
+N16,approche2b_textrank,1,formation,True
+N16,approche2b_textrank,2,180 000 francs,False
+N16,approche2b_textrank,3,données relationnelles organisée,False
+N16,approche2b_textrank,4,avis favorable,True
+N16,approche2b_textrank,5,dix jours,False
+N16,approche2b_textrank,6,charge,True
+N16,approche2b_textrank,7,bases,True
+N16,approche2b_textrank,8,gestion,True
+N16,approche2b_textrank,9,inscription,True
+N16,approche2b_textrank,10,prise,True
+N17,approche2b_textrank,1,archives,True
+N17,approche2b_textrank,2,cinq ans,False
+N17,approche2b_textrank,3,documents administratifs,False
+N17,approche2b_textrank,4,circulaire relative,False
+N17,approche2b_textrank,5,dossiers clôturés,True
+N17,approche2b_textrank,6,archivage,True
+N17,approche2b_textrank,7,accompagner,False
+N17,approche2b_textrank,8,versement,True
+N17,approche2b_textrank,9,année,False
+N17,approche2b_textrank,10,transférés,False
+N18,approche2b_textrank,1,passage supplémentaire,True
+N18,approche2b_textrank,2,six heures,False
+N18,approche2b_textrank,3,registre prévu,False
+N18,approche2b_textrank,4,huit heures,False
+N18,approche2b_textrank,5,signaler,False
+N18,approche2b_textrank,6,entretien,True
+N18,approche2b_textrank,7,planning,True
+N18,approche2b_textrank,8,anomalie,True
+N18,approche2b_textrank,9,moyen,False
+N18,approche2b_textrank,10,assuré,False
+N19,approche2b_textrank,1,certificat soit délivré,False
+N19,approche2b_textrank,2,justification écrite,True
+N19,approche2b_textrank,3,meilleurs délais,False
+N19,approche2b_textrank,4,dossier déposé,False
+N19,approche2b_textrank,5,réclamation concernant,True
+N19,approche2b_textrank,6,reçu,False
+N19,approche2b_textrank,7,septembre,False
+N19,approche2b_textrank,8,toujours,False
+N19,approche2b_textrank,9,retard,True
+N19,approche2b_textrank,10,délivrance,True
+N20,approche2b_textrank,1,pilote concernera deux facultés,False
+N20,approche2b_textrank,2,projet vise,False
+N20,approche2b_textrank,3,premier semestre,True
+N20,approche2b_textrank,4,indicateurs,True
+N20,approche2b_textrank,5,réussite,True
+N20,approche2b_textrank,6,dématérialisation,True
+N20,approche2b_textrank,7,bourse,True
+N20,approche2b_textrank,8,dossiers,False
+N20,approche2b_textrank,9,permettre,False
+N20,approche2b_textrank,10,ligne,True
+N21,approche2b_textrank,1,089 portant affectation,False
+N21,approche2b_textrank,2,entraîne aucune modification,False
+N21,approche2b_textrank,3,monsieur youssouf hassan,False
+N21,approche2b_textrank,4,nouveau responsable,True
+N21,approche2b_textrank,5,1er janvier,False
+N21,approche2b_textrank,6,délai,False
+N21,approche2b_textrank,7,transmis,False
+N21,approche2b_textrank,8,compter,False
+N21,approche2b_textrank,9,comptabilité,True
+N21,approche2b_textrank,10,service,True
+N22,approche2b_textrank,1,visite,True
+N22,approche2b_textrank,2,connexion internet,True
+N22,approche2b_textrank,3,trois écoles,False
+N22,approche2b_textrank,4,enseignants demandent,False
+N22,approche2b_textrank,5,formation,True
+N22,approche2b_textrank,6,présents,False
+N22,approche2b_textrank,7,usage,False
+N22,approche2b_textrank,8,mise,False
+N22,approche2b_textrank,9,vérifier,False
+N22,approche2b_textrank,10,terrain,True
+N23,approche2b_textrank,1,guichet numéro trois accueillera,False
+N23,approche2b_textrank,2,ouverture,True
+N23,approche2b_textrank,3,quinze heures,False
+N23,approche2b_textrank,4,neuf heures,False
+N23,approche2b_textrank,5,service relative,False
+N23,approche2b_textrank,6,paiement supplémentaire,False
+N23,approche2b_textrank,7,règlement,True
+N23,approche2b_textrank,8,décembre,False
+N23,approche2b_textrank,9,public,True
+N23,approche2b_textrank,10,fixés,False
+N24,approche2b_textrank,1,400 000 francs djiboutiens,False
+N24,approche2b_textrank,2,remplacement,True
+N24,approche2b_textrank,3,fiche technique détaillée,True
+N24,approche2b_textrank,4,demande,False
+N24,approche2b_textrank,5,huit ans,False
+N24,approche2b_textrank,6,scolarité datent,False
+N24,approche2b_textrank,7,service,True
+N24,approche2b_textrank,8,tourner,False
+N24,approche2b_textrank,9,jointe,False
+N24,approche2b_textrank,10,logiciel,True
+N25,approche2b_textrank,1,objectifs,True
+N25,approche2b_textrank,2,mardi 1er décembre,True
+N25,approche2b_textrank,3,entretien annuel,True
+N25,approche2b_textrank,4,année prochaine,False
+N25,approche2b_textrank,5,ressources humaines,True
+N25,approche2b_textrank,6,êtes invité,False
+N25,approche2b_textrank,7,direction,True
+N25,approche2b_textrank,8,bureau,False
+N25,approche2b_textrank,9,heures,False
+N25,approche2b_textrank,10,propositions,True
+N26,approche2b_textrank,1,évacuation aura lieu,False
+N26,approche2b_textrank,2,consignes affichées,False
+N26,approche2b_textrank,3,mobilité réduite,True
+N26,approche2b_textrank,4,rassemblement situé,False
+N26,approche2b_textrank,5,membres,False
+N26,approche2b_textrank,6,accompagnées,False
+N26,approche2b_textrank,7,jeudi,False
+N26,approche2b_textrank,8,suivre,False
+N26,approche2b_textrank,9,point,True
+N26,approche2b_textrank,10,rejoindre,False
+N27,approche2b_textrank,1,stage,True
+N27,approche2b_textrank,2,convention,True
+N27,approche2b_textrank,3,stage porte,False
+N27,approche2b_textrank,4,tuteur pédagogique,True
+N27,approche2b_textrank,5,service statistiques,True
+N27,approche2b_textrank,6,licence sollicite,False
+N27,approche2b_textrank,7,deux mois,False
+N27,approche2b_textrank,8,troisième année,True
+N27,approche2b_textrank,9,partir,False
+N27,approche2b_textrank,10,analyse,True
+N28,approche2b_textrank,1,courrier,False
+N28,approche2b_textrank,2,référence mut 2026,False
+N28,approche2b_textrank,3,novembre 2026 relatif,False
+N28,approche2b_textrank,4,prochaine commission administrative,True
+N28,approche2b_textrank,5,deux mois,False
+N28,approche2b_textrank,6,serez informé,False
+N28,approche2b_textrank,7,décision,True
+N28,approche2b_textrank,8,délai,True
+N28,approche2b_textrank,9,enregistré,False
+N28,approche2b_textrank,10,demande,True
+N29,approche2b_textrank,1,service portant fermeture exceptionnelle,True
+N29,approche2b_textrank,2,formation interne,True
+N29,approche2b_textrank,3,gestion électronique,True
+N29,approche2b_textrank,4,lundi suivant,False
+N29,approche2b_textrank,5,demandes urgentes,True
+N29,approche2b_textrank,6,matin,False
+N29,approche2b_textrank,7,traitées,False
+N29,approche2b_textrank,8,bureaux,False
+N29,approche2b_textrank,9,vendredi,False
+N29,approche2b_textrank,10,journée,True
+N30,approche2b_textrank,1,service,True
+N30,approche2b_textrank,2,planification,True
+N30,approche2b_textrank,3,janvier 2027,False
+N30,approche2b_textrank,4,avis favorable,True
+N30,approche2b_textrank,5,poste anticipée,False
+N30,approche2b_textrank,6,suis disponible,False
+N30,approche2b_textrank,7,supérieur actuel,False
+N30,approche2b_textrank,8,prise,True
+N30,approche2b_textrank,9,émis,False
+N30,approche2b_textrank,10,raison,False
+N11,approche2c_lemmes_spacy_tfidf,1,heure,False
+N11,approche2c_lemmes_spacy_tfidf,2,chef,False
+N11,approche2c_lemmes_spacy_tfidf,3,pause,True
+N11,approche2c_lemmes_spacy_tfidf,4,ponctualité,True
+N11,approche2c_lemmes_spacy_tfidf,5,ramadan,True
+N11,approche2c_lemmes_spacy_tfidf,6,horaire,True
+N11,approche2c_lemmes_spacy_tfidf,7,neuf heure,False
+N11,approche2c_lemmes_spacy_tfidf,8,service,False
+N11,approche2c_lemmes_spacy_tfidf,9,absence,True
+N11,approche2c_lemmes_spacy_tfidf,10,travail,True
+N12,approche2c_lemmes_spacy_tfidf,1,membre,False
+N12,approche2c_lemmes_spacy_tfidf,2,concours,True
+N12,approche2c_lemmes_spacy_tfidf,3,déclaration,True
+N12,approche2c_lemmes_spacy_tfidf,4,enveloppe,True
+N12,approche2c_lemmes_spacy_tfidf,5,grille,True
+N12,approche2c_lemmes_spacy_tfidf,6,impartialité,True
+N12,approche2c_lemmes_spacy_tfidf,7,jury,True
+N12,approche2c_lemmes_spacy_tfidf,8,laboratoire,True
+N12,approche2c_lemmes_spacy_tfidf,9,notation,True
+N12,approche2c_lemmes_spacy_tfidf,10,technicien,True
+N13,approche2c_lemmes_spacy_tfidf,1,autorisation,True
+N13,approche2c_lemmes_spacy_tfidf,2,absence,True
+N13,approche2c_lemmes_spacy_tfidf,3,dossier urgent,True
+N13,approche2c_lemmes_spacy_tfidf,4,décès,False
+N13,approche2c_lemmes_spacy_tfidf,5,famille,False
+N13,approche2c_lemmes_spacy_tfidf,6,pièce justificative,True
+N13,approche2c_lemmes_spacy_tfidf,7,raison familial,False
+N13,approche2c_lemmes_spacy_tfidf,8,suite,False
+N13,approche2c_lemmes_spacy_tfidf,9,membre,False
+N13,approche2c_lemmes_spacy_tfidf,10,personnel,True
+N14,approche2c_lemmes_spacy_tfidf,1,bâtiment administratif,False
+N14,approche2c_lemmes_spacy_tfidf,2,climatiseur,True
+N14,approche2c_lemmes_spacy_tfidf,3,identité bancaire,True
+N14,approche2c_lemmes_spacy_tfidf,4,maintenance,True
+N14,approche2c_lemmes_spacy_tfidf,5,montant net,False
+N14,approche2c_lemmes_spacy_tfidf,6,paiement,True
+N14,approche2c_lemmes_spacy_tfidf,7,relevé,True
+N14,approche2c_lemmes_spacy_tfidf,8,retenue,True
+N14,approche2c_lemmes_spacy_tfidf,9,source,True
+N14,approche2c_lemmes_spacy_tfidf,10,virement bancaire,True
+N15,approche2c_lemmes_spacy_tfidf,1,conseil,True
+N15,approche2c_lemmes_spacy_tfidf,2,administration,True
+N15,approche2c_lemmes_spacy_tfidf,3,fin,False
+N15,approche2c_lemmes_spacy_tfidf,4,nécessité,False
+N15,approche2c_lemmes_spacy_tfidf,5,prochain conseil,True
+N15,approche2c_lemmes_spacy_tfidf,6,président,False
+N15,approche2c_lemmes_spacy_tfidf,7,règlement intérieur,True
+N15,approche2c_lemmes_spacy_tfidf,8,budget,True
+N15,approche2c_lemmes_spacy_tfidf,9,exercice,False
+N15,approche2c_lemmes_spacy_tfidf,10,réunion,False
+N16,approche2c_lemmes_spacy_tfidf,1,formation,True
+N16,approche2c_lemmes_spacy_tfidf,2,base,True
+N16,approche2c_lemmes_spacy_tfidf,3,charge,True
+N16,approche2c_lemmes_spacy_tfidf,4,donnée relationnel,False
+N16,approche2c_lemmes_spacy_tfidf,5,programme,True
+N16,approche2c_lemmes_spacy_tfidf,6,supérieur hiérarchique,True
+N16,approche2c_lemmes_spacy_tfidf,7,avis favorable,True
+N16,approche2c_lemmes_spacy_tfidf,8,coût,True
+N16,approche2c_lemmes_spacy_tfidf,9,frais,True
+N16,approche2c_lemmes_spacy_tfidf,10,gestion,True
+N17,approche2c_lemmes_spacy_tfidf,1,archivage,True
+N17,approche2c_lemmes_spacy_tfidf,2,archive intermédiaire,True
+N17,approche2c_lemmes_spacy_tfidf,3,bordereau,True
+N17,approche2c_lemmes_spacy_tfidf,4,boîte,True
+N17,approche2c_lemmes_spacy_tfidf,5,document administratif,False
+N17,approche2c_lemmes_spacy_tfidf,6,origine,True
+N17,approche2c_lemmes_spacy_tfidf,7,transfert,False
+N17,approche2c_lemmes_spacy_tfidf,8,versement,True
+N17,approche2c_lemmes_spacy_tfidf,9,dossier,True
+N17,approche2c_lemmes_spacy_tfidf,10,circulaire,False
+N18,approche2c_lemmes_spacy_tfidf,1,heure,False
+N18,approche2c_lemmes_spacy_tfidf,2,anomalie,True
+N18,approche2c_lemmes_spacy_tfidf,3,local,False
+N18,approche2c_lemmes_spacy_tfidf,4,midi,False
+N18,approche2c_lemmes_spacy_tfidf,5,moyen,False
+N18,approche2c_lemmes_spacy_tfidf,6,nettoyage,True
+N18,approche2c_lemmes_spacy_tfidf,7,passage supplémentaire,True
+N18,approche2c_lemmes_spacy_tfidf,8,planning,True
+N18,approche2c_lemmes_spacy_tfidf,9,site,True
+N18,approche2c_lemmes_spacy_tfidf,10,accueil,True
+N19,approche2c_lemmes_spacy_tfidf,1,certificat,True
+N19,approche2c_lemmes_spacy_tfidf,2,délivrance,True
+N19,approche2c_lemmes_spacy_tfidf,3,fournie,False
+N19,approche2c_lemmes_spacy_tfidf,4,justification écrite,True
+N19,approche2c_lemmes_spacy_tfidf,5,meilleur délai,False
+N19,approche2c_lemmes_spacy_tfidf,6,retard,True
+N19,approche2c_lemmes_spacy_tfidf,7,réclamation,True
+N19,approche2c_lemmes_spacy_tfidf,8,réponse,True
+N19,approche2c_lemmes_spacy_tfidf,9,résidence,True
+N19,approche2c_lemmes_spacy_tfidf,10,septembre,False
+N20,approche2c_lemmes_spacy_tfidf,1,bourse,True
+N20,approche2c_lemmes_spacy_tfidf,2,projet,False
+N20,approche2c_lemmes_spacy_tfidf,3,annexe,False
+N20,approche2c_lemmes_spacy_tfidf,4,budget prévisionnel,True
+N20,approche2c_lemmes_spacy_tfidf,5,cadrage,False
+N20,approche2c_lemmes_spacy_tfidf,6,dématérialisation,True
+N20,approche2c_lemmes_spacy_tfidf,7,dépôt,True
+N20,approche2c_lemmes_spacy_tfidf,8,faculté,False
+N20,approche2c_lemmes_spacy_tfidf,9,indicateur,True
+N20,approche2c_lemmes_spacy_tfidf,10,ligne,True
+N21,approche2c_lemmes_spacy_tfidf,1,affectation,True
+N21,approche2c_lemmes_spacy_tfidf,2,changement,True
+N21,approche2c_lemmes_spacy_tfidf,3,comptabilité,True
+N21,approche2c_lemmes_spacy_tfidf,4,cours,True
+N21,approche2c_lemmes_spacy_tfidf,5,hassan,False
+N21,approche2c_lemmes_spacy_tfidf,6,modification,True
+N21,approche2c_lemmes_spacy_tfidf,7,monsieur youssouf,False
+N21,approche2c_lemmes_spacy_tfidf,8,rémunération,True
+N21,approche2c_lemmes_spacy_tfidf,9,décision,True
+N21,approche2c_lemmes_spacy_tfidf,10,délai,False
+N22,approche2c_lemmes_spacy_tfidf,1,compte,False
+N22,approche2c_lemmes_spacy_tfidf,2,connexion internet,True
+N22,approche2c_lemmes_spacy_tfidf,3,enseignant,True
+N22,approche2c_lemmes_spacy_tfidf,4,février,False
+N22,approche2c_lemmes_spacy_tfidf,5,intermittent,False
+N22,approche2c_lemmes_spacy_tfidf,6,mise,False
+N22,approche2c_lemmes_spacy_tfidf,7,place,False
+N22,approche2c_lemmes_spacy_tfidf,8,présent,False
+N22,approche2c_lemmes_spacy_tfidf,9,recommandation,True
+N22,approche2c_lemmes_spacy_tfidf,10,région,True
+N23,approche2c_lemmes_spacy_tfidf,1,ouverture,True
+N23,approche2c_lemmes_spacy_tfidf,2,fixé,False
+N23,approche2c_lemmes_spacy_tfidf,3,guichet,True
+N23,approche2c_lemmes_spacy_tfidf,4,guichet numéro,False
+N23,approche2c_lemmes_spacy_tfidf,5,interruption,False
+N23,approche2c_lemmes_spacy_tfidf,6,paiement supplémentaire,False
+N23,approche2c_lemmes_spacy_tfidf,7,public,True
+N23,approche2c_lemmes_spacy_tfidf,8,règlement,True
+N23,approche2c_lemmes_spacy_tfidf,9,droit,True
+N23,approche2c_lemmes_spacy_tfidf,10,horaire,True
+N24,approche2c_lemmes_spacy_tfidf,1,remplacement,True
+N24,approche2c_lemmes_spacy_tfidf,2,fich technique,False
+N24,approche2c_lemmes_spacy_tfidf,3,matériel informatique,True
+N24,approche2c_lemmes_spacy_tfidf,4,ordinateur,True
+N24,approche2c_lemmes_spacy_tfidf,5,présent demande,False
+N24,approche2c_lemmes_spacy_tfidf,6,scolarité datent,False
+N24,approche2c_lemmes_spacy_tfidf,7,coût,True
+N24,approche2c_lemmes_spacy_tfidf,8,gestion,True
+N24,approche2c_lemmes_spacy_tfidf,9,logiciel,True
+N24,approche2c_lemmes_spacy_tfidf,10,joindre,False
+N25,approche2c_lemmes_spacy_tfidf,1,objectif,True
+N25,approche2c_lemmes_spacy_tfidf,2,année prochain,False
+N25,approche2c_lemmes_spacy_tfidf,3,bilan,True
+N25,approche2c_lemmes_spacy_tfidf,4,direction,True
+N25,approche2c_lemmes_spacy_tfidf,5,entretien annuel,True
+N25,approche2c_lemmes_spacy_tfidf,6,mardi,True
+N25,approche2c_lemmes_spacy_tfidf,7,proposition,True
+N25,approche2c_lemmes_spacy_tfidf,8,évaluation,True
+N25,approche2c_lemmes_spacy_tfidf,9,ressource humain,False
+N25,approche2c_lemmes_spacy_tfidf,10,convocation,True
+N26,approche2c_lemmes_spacy_tfidf,1,exercice,True
+N26,approche2c_lemmes_spacy_tfidf,2,consigne,True
+N26,approche2c_lemmes_spacy_tfidf,3,couloir,False
+N26,approche2c_lemmes_spacy_tfidf,4,lieu,False
+N26,approche2c_lemmes_spacy_tfidf,5,mobilité,True
+N26,approche2c_lemmes_spacy_tfidf,6,parking,False
+N26,approche2c_lemmes_spacy_tfidf,7,personne,False
+N26,approche2c_lemmes_spacy_tfidf,8,rassemblement,True
+N26,approche2c_lemmes_spacy_tfidf,9,équipe,True
+N26,approche2c_lemmes_spacy_tfidf,10,évacuation,True
+N27,approche2c_lemmes_spacy_tfidf,1,stage,True
+N27,approche2c_lemmes_spacy_tfidf,2,convention,True
+N27,approche2c_lemmes_spacy_tfidf,3,acceptation,True
+N27,approche2c_lemmes_spacy_tfidf,4,analyse,True
+N27,approche2c_lemmes_spacy_tfidf,5,donnée,True
+N27,approche2c_lemmes_spacy_tfidf,6,enquête,True
+N27,approche2c_lemmes_spacy_tfidf,7,licence,True
+N27,approche2c_lemmes_spacy_tfidf,8,service statistique,True
+N27,approche2c_lemmes_spacy_tfidf,9,tuteur pédagogique,True
+N27,approche2c_lemmes_spacy_tfidf,10,lettre,True
+N28,approche2c_lemmes_spacy_tfidf,1,courrier,False
+N28,approche2c_lemmes_spacy_tfidf,2,administratif,False
+N28,approche2c_lemmes_spacy_tfidf,3,prochain commission,False
+N28,approche2c_lemmes_spacy_tfidf,4,relatif,False
+N28,approche2c_lemmes_spacy_tfidf,5,décision,True
+N28,approche2c_lemmes_spacy_tfidf,6,délai,True
+N28,approche2c_lemmes_spacy_tfidf,7,mutation,True
+N28,approche2c_lemmes_spacy_tfidf,8,réception,True
+N28,approche2c_lemmes_spacy_tfidf,9,référence,True
+N28,approche2c_lemmes_spacy_tfidf,10,mois,False
+N29,approche2c_lemmes_spacy_tfidf,1,demande urgent,False
+N29,approche2c_lemmes_spacy_tfidf,2,document,True
+N29,approche2c_lemmes_spacy_tfidf,3,fermeture exceptionnelle,True
+N29,approche2c_lemmes_spacy_tfidf,4,formation interne,True
+N29,approche2c_lemmes_spacy_tfidf,5,gestion électronique,True
+N29,approche2c_lemmes_spacy_tfidf,6,journée,True
+N29,approche2c_lemmes_spacy_tfidf,7,occasion,False
+N29,approche2c_lemmes_spacy_tfidf,8,vendredi,False
+N29,approche2c_lemmes_spacy_tfidf,9,lundi,False
+N29,approche2c_lemmes_spacy_tfidf,10,matin,False
+N30,approche2c_lemmes_spacy_tfidf,1,planification,True
+N30,approche2c_lemmes_spacy_tfidf,2,disponible,False
+N30,approche2c_lemmes_spacy_tfidf,3,raison,False
+N30,approche2c_lemmes_spacy_tfidf,4,statistique,True
+N30,approche2c_lemmes_spacy_tfidf,5,supérieur actuel,False
+N30,approche2c_lemmes_spacy_tfidf,6,avis favorable,True
+N30,approche2c_lemmes_spacy_tfidf,7,mutation,True
+N30,approche2c_lemmes_spacy_tfidf,8,poste,True
+N30,approche2c_lemmes_spacy_tfidf,9,prise,True
+N30,approche2c_lemmes_spacy_tfidf,10,service,True

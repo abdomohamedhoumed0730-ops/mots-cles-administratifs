@@ -1,0 +1,11 @@
+methode,parametre,valeur,F1_souple_k5_dev
+approche2a_phrases_tfidf,longueur_max=2,2,0.32727272727272727
+approche2a_phrases_tfidf,longueur_max=3,3,0.309090909090909
+approche2a_phrases_tfidf,longueur_max=4,4,0.3272727272727272
+approche2b_textrank,fenetre=2,2,0.40338550338550333
+approche2b_textrank,fenetre=3,3,0.4171886936592818
+approche2b_textrank,fenetre=4,4,0.332620320855615
+approche2b_textrank,fenetre=6,6,0.3503085150143973
+approche2c_lemmes_spacy_tfidf,longueur_max=1,1,0.43166833166833163
+approche2c_lemmes_spacy_tfidf,longueur_max=2,2,0.4501298701298701
+approche2c_lemmes_spacy_tfidf,longueur_max=3,3,0.4501298701298701
